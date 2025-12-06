@@ -20,6 +20,7 @@ use App\Http\Controllers\LinkProyectoController;
 use App\Http\Controllers\ProyectoUsuarioController;
 use App\Http\Controllers\PaginaPublicasController;
 use App\Http\Controllers\AdminUsuariosCrudController;
+use App\Http\Controllers\PaginaUsuarioController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -88,6 +89,9 @@ Route::middleware('auth')->group(function () {
     Route::resource('mistareas', MisTareasController::class);
     Route::resource('misclientes', MisClientesController::class);
     Route::resource('proyectos', ProyectoUsuarioController::class);
+
+    Route::resource('paginasusuario', PaginaUsuarioController::class);;
+
 });
 
 // RUTAS PARA COORDINADORES

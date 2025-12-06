@@ -37,10 +37,6 @@
             <div class="max-w-7xl mx-auto">
                 <nav class="flex items-center justify-between">
                     <div class="flex items-center space-x-2">
-                        <svg class="w-8 h-8 text-[#F53003] dark:text-[#FF4433]" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 4H6V44H20V30H12V4Z" fill="currentColor"/>
-                            <path d="M34 18C32 14 28 10 24 8C20 6 18 5 18 5C14 3 10 2 6 2C2 2 0 4 0 8C0 12 2 16 6 18C10 20 14 20 18 18C22 16 24 14 26 12C28 14 30 16 34 18Z" fill="currentColor"/>
-                        </svg>
                         <span class="text-xl font-semibold dark:text-[#EDEDEC]">{{ config('app.name', 'Portafolio') }}</span>
                     </div>
 

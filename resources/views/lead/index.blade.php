@@ -2,18 +2,7 @@
     <div class="space-y-8">
         <!-- Sección de Embudos -->
         <div>
-            <div class="flex items-center justify-between mb-6">
-                <h2 class="text-2xl font-bold text-gray-800">Embudos de venta</h2>
-                <a
-                    href="{{ route('embudos.create') }}"
-                    class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 font-medium shadow-sm hover:shadow"
-                >
-                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                    </svg>
-                    Nuevo Proyecto
-                </a>
-            </div>
+
 
             @if($embudos->count() > 0)
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -52,12 +41,12 @@
                                     </a>
 
                                     <!-- Botón para agregar lead a este embudo específico -->
-                                    <a
+                                    {{-- <a
                                         href="{{ route('leads.create', ['embudo_id' => $embudo->id]) }}"
                                         class="text-sm text-blue-600 hover:text-blue-800 font-medium"
                                     >
                                         + Agregar lead
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>
@@ -89,7 +78,7 @@
                         <span class="text-sm text-gray-500">
                             Total: {{ $leads->count() }} leads
                         </span>
-                        <a
+                        {{-- <a
                             href="{{ route('leads.create') }}"
                             class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-lg hover:from-green-700 hover:to-green-800 transition-all duration-300 font-medium shadow-sm hover:shadow"
                         >
@@ -97,7 +86,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
                             </svg>
                             Nuevo Lead
-                        </a>
+                        </a> --}}
                     </div>
                 </div>
 
