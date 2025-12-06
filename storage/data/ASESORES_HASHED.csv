@@ -1,0 +1,360 @@
+id_asesor,nombre,apellido,correo,Numero,password,estado,empresa,ciudad,fecha_de_registro
+9,Jeus Admin,Montejo,jesus@admin.com,9993347505,$2b$08$rlEzlTKunmpABAO14jvaouUyP47n53.FXKkzNtQFCf5oarQv7iSbK,Yucatan,Kavana,Merida,2024-08-15 00:23:23
+10,Jesus,Montejo,jesusjs@gmail.com,9993347505,$2b$08$.FM/8MQwjvsvmoohOiAXDeN4Qe.r/477Ls9R87CuVKLgVX0ChzP0e,Yucatan,Kavana,Merida,2024-08-15 00:23:23
+14,Juan ,Montalvo,montalvo@gmail.com,993347505,$2b$08$F55tJ7xhgRJquXplWbD93OrOgdHV0wSn3IMBrPZvEReP3LCDBzgkS,Yucatan,Kavana,Merida,2024-08-15 00:23:23
+16,Gerardo,Pantoja,gerardo@gmail.com,9993347505,$2b$08$kSARsI8QiyHTLXWxkxPKZOodnV470Fzf1Ox4WeJ2UO.jxjpkjGoBy,Yucatan,Kavana,Merida,2024-08-15 00:23:23
+17,Juan,Montalvo,montalvo150312@gmail.com,9993903747,$2b$08$DeBOZ/2c9iAHe9IMebm4EO3AF0gq6xbEbSdpLTgxEHD.f5oYdsCYO,Yucatán,Kavana,Mérida,2024-08-15 00:23:23
+18,Yael,Ordaz,yaelordaz1998@gmail.com,9993575724,$2b$08$c9xBM7ofLH7y4ew9cfilh.ymGftiMyWZJ20EYTlbqAHSPgrFtDrli,Yucatán,Kavana,Mérida,2024-08-15 00:23:23
+19,JESUS,ABELARDO,jesus@jesus.com,9993903747,$2b$08$0.Mna0PQCueHxepf0ZfLa.wO8KhIVf.4p3TSMyvQV9MseWq0QneQO,CUAWILA,JESUSJSJS,DZUNUNCAN,2024-08-15 00:23:23
+20,Gerardo,Pantoja Chay,gpc_297@live.com.mx,9999475039,$2b$08$2BR8Juok1CVoQDRb4JMN3OUNIwOY.icFctWeKnUzJmQ81f1ZyZoli,yucatán,kavana interno,merida,2024-08-15 00:23:23
+21,Steel Service,Inmobiliaria,sleelinmobiliarias@gmail.com,8135908972,$2b$08$reT9T5aRlYhuMZ9sR4CL1eKB3likYYpL8tLHeFsLv9sKhpVysHEq.,NUEVO LEÓN,Steel Service Inmobiliaria ,MONTERREY,2024-08-15 00:23:23
+22,JESUS,ABELARDO,jesusjsmontejo@gmail.com,9993903747,$2b$08$lIZvGcozW54aY1TxDxmB9uMwHUZoPCE.mXmzi.yaYdrTcfj2LtmC6,CUAWILA,JESUSJSJS,DZUNUNCAN,2024-08-15 00:23:23
+23,JESUS,ABELARDO,jesusss@gmail.com,99959804444,$2b$08$EzB1AjgU5nqjho92iUDM9OZSkZAchAa5Lnin1D5oof.iQ6AYbZEK.,CUAWILA,JESUSJSJS,DZUNUNCAN,2024-08-15 00:23:23
+24,Kavana,Admin,kavanaadmin@kavanabroker.com,,$2b$08$YptbUsoPyUfOzYsGLi9sQu5ccz7hfa9XMp3RskZfy02CgPaoGqkoe,Merida,Kavana,Yucatan,2024-08-15 00:23:23
+26,Anael ,Livne,anaelinor17@gmail.com,9983953355,$2b$08$Mmi7nF41ULnwGChu4rtl0.1VxCBy64HfGkOqhBmOOTm5aOeXsm7QC,Yucatan,Kavana MB,Merida,2024-08-15 00:23:23
+27,juan,montalvo,montalvo150312@gmail.com,9993903747,$2b$08$lsFPNGdH5q0X4zLguJHkvOEII5p8ClZhMgVR9dDpa5xnn6/Hu2pbu,yucatan,kavana,merida,2024-08-15 00:23:23
+28,Gaely ,aguilar avila,gae.dessire.aguilar@gmail.com,9993281990,$2b$08$G2z9PkYPaOOexZqLOLkrV.0gvnupt7h7Wf838DBW/z/6Ftfkm1HGG,Yucatán,Kavana,MÉRIDA,2024-08-15 00:23:23
+29,Anael ,Livne,anaelinor17@gmail.com,9983953355,$2b$08$DwsjV21GIGXuC71zUDpavORpA1mH/SJj4p2Tppw99rk2o7bNL2luq,Yucatan,Kavana MB,Merida,2024-08-15 00:23:23
+30,Erick ,Pavón ,erickpavon91@gmail.com,9991258803,$2b$08$TBUatgmILXsfUF7seZGv/e1/INCs2/KOzuvsErmr5XrDYLtkqiYxy,Yucatán ,Orten ,Merida,2024-08-15 00:23:23
+31,Erick ,Pavón ,erickpavon91@gmail.com,9991258803,$2b$08$FSu0NHL3r2bu6KiQBW7JSeFr5o0.E9PAQo5Ro.xsSuU6GC5doD3.C,Yucatán ,Orten ,Merida,2024-08-15 00:23:23
+32,Daniela paulette ,Mejia somarriba ,danielamejia7@yahoo.com,5574364202,$2b$08$dyuDINe9K81CJ7eCdzp1yevmSkYzIGFWf8w93okgqSGvA9kM/8GH6,Yucatán ,Independiente ,Merida ,2024-08-15 00:23:23
+33,Raúl ,López Castilla ,rlinmobiliaria6205@gmail.com,9992693222,$2b$08$175JQtRSwh0R8xxF3g3oV.VvUfQSVeU2qwH08HvHQA1GQ19ZSDE0i,Yucat,RL Inversiones Inmobiliaria ,Mérida ,2024-08-15 00:23:23
+34,Luisa María de Guadalupe,De Aguilera Flores,floreslmg59@gmail.com,5560616258,$2b$08$fCbwcvRExB69ltbo0J5Lv.nVpo8akrH8d7Eu9r2g2U8a1QxtXqWqe,Querétaro ,Independiente ,EDO. DE MEXICO,2024-08-15 00:23:23
+35,Ana Laura,Cantú Pérez ,anacantuperez@outlook.com,8112380975,$2b$08$p9jymKOId9QLUIS4pgwFzeyW6RVidPI4n3rdcYTjKJ3TLPE.7liwO,Nuevo Leon,Ana Cantú @miss.departamentos ,Monterrey ,2024-08-15 00:23:23
+36,Angela ,García ,angelagarcia.broker@gmail.com,9861069635,$2b$08$0tBQB/y0s00FYkact1r1Cemo5AuWKQRCHChyzB9WS4SWXJtc/W73u,Yucatán,Independiente ,PROGRESO,2024-08-15 00:23:23
+37,Angela ,García ,angelagarcia.broker@gmail.com,9861069635,$2b$08$QOU3zCkMmyBdtati1xjoZuwvCgRqryQbpMINjSzIVQsev8UmSLvwS,Yucatán,Independiente ,PROGRESO,2024-08-15 00:23:23
+38,Victor,Ortega,v.ortega@lacasaagency.com.mx,9995042293,$2b$08$v34OqQ0L8RbYpBLthKGIteIWNSRa3ypDnAm58Iz12YTfb/VQKaNJK,Yucatán,La Casa Agency,Mérida,2024-08-15 00:23:23
+39,Alfonso ,Cruz Núñez ,acruz.ventas.inmobiliaria@gmail.com,5579724083,$2b$08$ua/gCXwWg20f1CRyyTEtGeCSJTy08B1VYeaBTE/uKHz9f2hDmP6.G,CDMX,Posee Un Pedazo de Planeta ,Tlalpan,2024-08-15 00:23:23
+40,Elieth,Velver,eliethvelver@hotmail.com,2292508725,$2b$08$W3cKy4wtnPLZVuHnI7ikfuT9egxA1quzRsbndSF3LJJfy956dYs7y,Yucatan ,Ricasa ,Merida ,2024-08-15 00:23:23
+41,FRANCISCO ,VAZQUEZ ,frvta-2006@outlook.com,3319607404,$2b$08$oYU0batAr4ykofcRXGjiVO/0TGOzX4JFPO5DTBR9CG9GGNr9Iojza,Jalisco ,Independientemente ,Guadalajara ,2024-08-15 00:23:23
+42,Misael,Loeza,m.loeza86@gmail.com,9901012840,$2b$08$65KCGWRabPv1sGfV2/pDSu3zrjehu0t4omUaJis.6/hZpfyvumWu6,Yucatán,Vivarea,Mérida,2024-08-15 00:23:23
+43,Raúl ,Rosas,raul@trinityrealestate.com.mx,9999490908,$2b$08$g3McHIlIuv/nNVLMVR3hZOCaUAsAogHnC3jal91eFFeXBeITk5X9W,Yucatán,Trinity Real Estate,Mérida,2024-08-15 00:23:23
+44,Rocio ,Cordoba ,trinity.real.estate.mexico@gmail.com,9999491318,$2b$08$YGbHnsgULYUBcY2H03Wvlu4Caeqfq0SNEyqbQ.UkMHDmMoA8OUu3G,Yucatán ,Trinity Real Estate ,Mérida ,2024-08-15 00:23:23
+45,Luis Angel,Sancho,luis.casasydepaozuna@gmail.com,+523330045460,$2b$08$W5pnrlNov62bZ7oaH/fJ3uclGTc8tnAvrCVEKSGOL2c5EGAi0WMhC,Jalisco,ozuna group inmobiliaria,san isidro ejidal zapopan,2024-08-15 00:23:23
+46,Alejandro ,Rodríguez ,alex.rodriguez.c73@gmail.com,5585678676,$2b$08$TJws3PJ8jDi1HFdkdFqP7eYXnIUW4pWkqe9xJFnuecIdtic0lklSi,Yucatán ,,Conkal,2024-08-15 00:23:23
+47,Natalia ,Villanueva ,natva1990@gmail.com,999 266 4655 ,$2b$08$PLMY7E4nGi.szAjqOfGSk.KPNau9GDip.MsIzKZ9JybDx9xVtXbn2,Yucatán ,Independiente ,Mérida ,2024-08-15 00:23:23
+48,Margarita guadalupe,Jiménez Dzib ,confidencialinmobiliaria@gmail.com,9993351302,$2b$08$tbvPehIodI9gre.zJM7mp.MufiBqJSasifVqX4SBQUt15KlmQ57Zm,Yucatan,Confidencial inmobiliaria ,Merida,2024-08-15 00:23:23
+49,Alexis,Arango Fernandez,alexisarangoasesor@gmail.com,9997000034,$2b$08$6PMEXnNPyLzR8Seu4LVvBuGCvwOmrznxi3ykMGMdP2NZWpmgzFZ12,Yucatán,CASA INMOBILIARIA,merida,2024-08-15 00:23:23
+50,Talita,Franca,talitaasesora@gmail.com,2292915100,$2b$08$4Fan7DBLL5crtTPKw.q43uFGlj0dnos88251JT6GMer6yIa4E/3kS,Yucatan,Independiente,Merida,2024-08-15 00:23:23
+51,MARÍA LUISA ,PUENTE TREJO ,mary5_puente@hotmail.com,8110803836,$2b$08$Akd27VuHpzbqIw4gJOPpM.jkeXo8zX4dafqAJIcDHxULb7nHot/Jm,NUEVOLEON,BROKER,MONTERREY,2024-08-15 00:23:23
+52,Anuhar ,Farah ,anuharfworks@gmail.com,3221598194,$2b$08$MXNmgnErNGX9tA82Mu4SYuOBZ.QOJXcGigyH55x6Pz8c6.f5Fr6A2,Yucatan ,Farah Realtors,Merida ,2024-08-15 00:23:23
+53,Jesus,Ortega Junco,jesusortegajunco@gmail.com,5533581218,$2b$08$AT9dEtjrnQaPAngh30SriOzbIh8a2opZb58vrLREMULIdwIHNxpNu,Ciudad de México (CD,Jesús Ortega Junco ,México,2024-08-15 00:23:23
+54,marly,enriquez,marly.enriquez@hotmail.com,9993356515,$2b$08$z87glKC8OxT1prRwR.KZJuNVpY0SD/zyPgeOtqC3lxdrPLD4vRxSa,yucatan,exp.mexico,merida,2024-08-15 00:23:23
+55,Marly,enriquez,marly.enriquez@hotmail.com,9993356515,$2b$08$g/GnToYK8omaRrdLTadwE.Ds5jcw.B4xIEd0ohRdMlk7oPYH2iJHC,yucatan,exp.mexico,merida,2024-08-15 00:23:23
+56,Azul ,Hernández,azulhernandezflores@gmail.com,5580481330,$2b$08$KKIA.0Cju2762SsO.Pn4EeUrC5JHa9ck/jUqkgS4BGyh.giElBKtC,Estado de México,Espacio Azul ,Tlalnepantla de Baz,2024-08-15 00:23:23
+57,Irma,Acosta,lqirma@hotmail.com,9991915800,$2b$08$haO.N0tyhuTCChbkRIjz8eUC4/Fem1F8Rf5U7IYZqL5.Tyf4aHGCK,Yucatan,Hogares del mayab,Merida,2024-08-15 00:23:23
+58,Cristina,Espindola,arcaterrainversion@gmail.com,9569621262,$2b$08$7QbFdmBhGPLbhFNAKRppMeCLakNAbval5Z/lNo9823vMl02NIdgVu,Queretaro,ArcaTerra ,Queretaro ,2024-08-15 00:23:23
+59,América ,López,sandramerica8@gmail.com,9993899204,$2b$08$/yWOYABlWCJX8pU32CUEz.vp/xDk5z9TeFQVt46cv1fQLiw23uaOm,Yucatán,Personal,Mérida,2024-08-15 00:23:23
+60,Isabel,Aranda,arandaterronesi@gmail.com,5541355539,$2b$08$zEfVAJIzD4glNbGsd/YwGenRjJ3m.ME53VQ4T/S7WowAxMCGqGQjK,Ciudad de México ,eXp Realty México ,Ciudad de México ,2024-08-15 00:23:23
+61,Mario Enrique,Coral Rosado,mariocoral2@gmail.com,9992025825,$2b$08$n0M9sr3mj1xjcF72IrMOaeU6pBuYwgs8SMg5o4BoCPF20dqm7HfiK,Yucatan,DYM Asesores Inmobiliarios,merida,2024-08-15 00:23:23
+62,Mario Enrique,Coral Rosado,mariocoral2@gmail.com,9992025825,$2b$08$tgoyDLvm9lhRDXzBc23fueMqYh7gAqyvOQv9voXiad.b0Go6SEwQa,Yucatan,DYM Asesores Inmobiliarios,Merida,2024-08-15 00:23:23
+63,Yebel ,Cabrera Tacgen ,yebelcabrera@gmail.com,5532209352 ,$2b$08$GOGPj6vpEUAogjeiJnXfbO/sVuluBQt/Csz5U5EBbUYNyod2ieFfa,Estado de México,Sabik Inmobiliaria ,NAUCALPAN DE JUAREZ,2024-08-15 00:23:23
+64,Maria Paulina ,Rivera,mari.rcampos73@gmail.com,9993774305,$2b$08$Ieq11jzcyfXxGCVgP88m.ul5jS7pyov1W887FkE7fr6J5oR4z.tB2,Yucatán ,S & R Servicios inmobiliarios,Merida ,2024-08-15 00:23:23
+65,Roberto,Garcia,asesorslbr5@gmail.com,9999100230,$2b$08$fw0vCfRNhCemsiYGZYR6vujD74N/rcuWMsnrP1Zxy5C0hBqUugaHq,Yucatán,SL Bienes Raices ,Mérida,2024-08-15 00:23:23
+66,Melissa,Lopez Custodio,melissa.custodio@triadica.mx,9999001064,$2b$08$Tnsoxlc51TrVSEkkcp88QOBfr2UNtoN2K13Ybtjpwl5EdxbtVmQv.,Yucatán,Triádica Inmobiliaria,Mérida,2024-08-15 00:23:23
+67,Sara,Bobadilla ,boguzsa@gmail.com,9992711977,$2b$08$4gpDk9338MIsOJ5/LurvnehUZolcRJhXlesxZX0NaL06BPhRTyHDK,Yucatán ,Boguzsa Inmuebles,Mérida ,2024-08-15 00:23:23
+68,Marly,Enriquez,marly.enriquez@hotmail.com,9993356515,$2b$08$zzbR4YBw5.bO6Q4UHhJ2H.WwblT6s5xeDwu9IvwWTt7uBRIE3Uy.K,Yucatán,Exp.mexico,Mérida,2024-08-15 00:23:23
+69,Ana ,Ferráez,adantainmobiliaria@gmail.com,9993490965,$2b$08$LHluH0uuO2Fzs29TvicfseyHcmY8lLY9mSpaQpVWD199TbQSGaPye,Yucatán,Adanta inmobiliaria,Mérida,2024-08-15 00:23:23
+70,FRANCISCO ,VAZQUEZ ,frvta-2006@outlook.com,3319607404,$2b$08$wbsIbHwzYclZN3KR9h7nj.hWcXZy7rCxGQS5WiTvjGaUP7.nI0/UC,Jalisco ,Independientemente ,Guadalajara ,2024-08-15 00:23:23
+71,Erika,Reyna,ereyfig@gmail.com,+52 55 2675 926,$2b$08$5TnnvTB/gBZam5vfm5ZnmeW0Zlo3nzrzLt5gzD8tMAOnJVOLMSpGG,Estado de México,AR Inmobiliaria ,Naucalpan ,2024-08-15 00:23:23
+72,Elizabeth,Rojas,ely-scott1@hotmail.com,5534358605,$2b$08$XRWrmcRQvif0DBQEKy2KvebSnVo794V/RGK0yRv1vd3pirNeRmnyO,Ciudad de México,Independiente,CDMX,2024-08-15 00:23:23
+73,Talina,de Gante,talidegante@gmail.com,9991343444,$2b$08$kk25xoxNzBxXnDZyKa2.t.NBlfPQZJVrXKdN91x7LAL6tkVCfgixO,Yucatan,Estructura ,Merida,2024-08-15 00:23:23
+74,Elena,Cetina,sukharealestate@gmail.com,9996398560,$2b$08$PkibmgvEU8v9Q5WGkQjXZuvNieisHWeeNlmB0.4eJkGAOBFLtFCqa,Merida,SUKHA REAL ESTATE ,Yucatan,2024-08-15 00:23:23
+75,Zacil ,Moguel manzur ,zacilmoguel@inmayab.com,9999550408,$2b$08$D9qxo4mAwuY5IkrTjVoTAuUPyGGP9Q/rE8yMY1NVwJtN.PFYGKT/W,Yucatan,InMayab Grupo Inmobiliario ,Merida,2024-08-15 00:23:23
+76,Juan manuel,Ramirez santiago,juanma1124d@gmail.com,9931372226,$2b$08$/PEwNXlgv3cryAnYyY3ld.GWYvCRd5NbipC61MNoyG.1gtNn99W7u,Tabasco,Santiago inmobiliaria,Villahermosa,2024-08-15 00:23:23
+77,Marissa ,Ricalde,riam2008@live.com.mx,9992176580,$2b$08$uxgnF8EOkpUldIFAfBmzIuftEp33pyAekblf7e06Nnn2EFrWFtKXG,Yucatan ,Riam inmobiliaria ,Merida,2024-08-15 00:23:23
+78,Miguel Ángel,Sesin,mabienesraices.merida@gmail.com,9991803885,$2b$08$wZzPcVeUH209vwsF8XtnwuCrXO8l8Mg0HBjRX55heZHUyJutKQwTm,Yucatán,MA Bienes Raices,Mérida,2024-08-15 00:23:23
+79,Marilu ,Gallardo,marlugg70@gmail.com,5551560783,$2b$08$8PJKXFZH/wR9yDkPq8IO8u6kzuN.2qTOUldr.dL/U4tjpBQI8QjHi,Yucatan,Me late Merida,Merida,2024-08-15 00:23:23
+80,Alberto ,Leyva Llamas ,Contacto@grupototal.com.mx,9994948548,$2b$08$x1WskB4VyRhbbtHh2LIZQuEnN.2.e5T5HSmtTR5WTCxmV4JnRHSwC,Yucatán ,Www.grupototal.com.mx ,Mérida,2024-08-15 00:23:23
+81,Graciela,Martínez Carpio,gracielacarpio50@gmail.com,5539120411,$2b$08$gZzfgbXmXDLri9B3BpOlmu1uhIuRSZw890FnxQ9LBr5BGgM11yGp.,Ciudad de México,Asesor Independiente,Ciudad de México,2024-08-15 00:23:23
+82,Alexander,Burgos,alexburgosg17@gmail.com,999 111 9371‬,$2b$08$dSM7tuB3wYZlwDc/6ymgzO9GlRyAw1CJaweiMAEBhY.SahVfrJyA2,Yucatán,Kavana MB,Mérida,2024-08-15 00:23:23
+83,Mateo,Becerra,becerrasanguino@hotmail.com,9999702304,$2b$08$AqmsJYJkuT3nH6PceW5kieqmulqtiuEKbdBL4tJZ4xGQ4LY/5FnqG,Yucatan,Kavana,Merida,2024-08-15 00:23:23
+84,Humberto,Aguilar ,jh.aguilar.ventas@gmail.com,9993234183,$2b$08$GZ.c1YxVAqpnhkzkVUSbw.D/MGx1KjH3Y11i8gGPytszkqqQlvuV2,Yucatán ,Independiente ,Mérida ,2024-08-15 00:23:23
+86,Jesus,Montejo,jesus3@admin.com,9993347568,$2b$08$nGMp5gYqzzYLCW4gbov8QOFpMdVD2Fjr7xdJ32OcgyFL7ibsNLlIG,Yúcatan,Avaspace,Mérida,2024-08-15 00:23:23
+87,Jesus,Montejo,jesus3@admin.com,9993347568,$2b$08$t3NfZHPij50fbzwZJAMS9eIqCbLkbl4MmlvdsHbMsoWUCQKIcoNG6,Yúcatan,Avaspace,Mérida,2024-08-15 00:23:23
+88,jesusname,Montejo,montalvo@gmail.com,9993347568,$2b$08$pjwwWsFUPwr5fTmC82E2Ru3Ulf8qh02TmMV2n8ylrScO/9LmZRSfu,Yúcatan,Avaspace,Mérida,2024-08-15 00:23:23
+89,jesusname,Montejo,jesus4@admin.com,9993347568,$2b$08$s0.SkADQM.v/8QO0ZTiW1.azXGbVqp9ar3JHYDhvCqIilxG4MBGcO,Yúcatan,Avaspace,Mérida,2024-08-15 00:23:23
+90,Jesus Abelardo,Montejo,jesus5@gmail.com,9993347505,$2b$08$FHnTLFxYmCv6LABx6v3ANOALBwKoDLBdQVmwYKHKAyyoZ88B6RKN2,CUAWILA,JESUSJSJS,DZUNUNCAN,2024-08-15 00:23:23
+91,Mary Cruz,rodriguez Gonzalez,xhaktunrealestate@gmail.com,9991406440,$2b$08$hr9jZOUHf4QFJz0tDCnheuWnzkgmqLH/xKq/m1h5wNIBZLhu.NAcG,merida,Xhaktun,mexico,2024-08-15 00:23:23
+92,Adrian,Chan,adrian_chan23@hotmail.com,9999999999,$2b$08$aoUTWlgzUAn2b95fyYa62eb4/rEsfynfuo9W4sO9QxFZFGT1ejLh6,Yucatán,Kavana,Mérida,2024-08-15 00:23:23
+93,Memo,Pantoja,memopantojac1@gmail.com,9999999999,$2b$08$5xXtJjaaTO07ncHBIZPRRurVZtDDCPVLBhEEejSU4nd2IzDVeCMku,Yúcatan,Kavana,Mérida,2024-08-15 00:23:23
+94,FABIOLA,MARTINEZ CAMPOS,contacto@realestate-campos.com,9901990093,$2b$08$4nDHau/zzwMz6T3/iqCKceCOwTKibVXRj7ciYTJvaOWFgDWOBYJSS,Yucatán,eXp Realty,MERIDA,2024-08-15 00:23:23
+95,Gaus,Sanchez,hola@gaussanchez.com,9995308173,$2b$08$PQG7i5MZTZdRPJ9I/n.WzeVKMt1uoJTREvwfbs2Y39El7FJEWJDwO,Yucatan,Gaus Sanchez,Merida,2024-08-15 00:23:23
+96,ALEJANDRA,MARTINEZ CAMPOS,contacto@campos-realestate.com,contacto@reales,$2b$08$C0YHS2q7DpYS/2kG4IH.muZi5RRj79YDS1b/V3FOy40kVYsWujIcC,SINALOA,eXp Realty,MAZATLAN,2024-08-15 00:23:23
+97,Anaid,Berumen,aberumen@grupokater.com,9993057505,$2b$08$Spz0sDIb4XijLNlTrE2KjuSjeYtqJmd1aNuFreb5jD8y/izwrJcEu,Yucatan,Katër Grupo Inmobiliario ,Mérida ,2024-08-15 00:23:23
+98,Alex ,Rodriguez,arodtnrealtor@gmail.com,arodtnrealtor@g,$2b$08$Kl.zfca.tkSE6eeu18owAeMB0FrK2nxG02K5JSH.5gby4ARzONfDK,Tennessee ,Alex Rodriguez REALTOR,Knoxville,2024-08-15 00:23:23
+99,Karla,Mendoza,hola@karlamendoza.net,9992414242,$2b$08$58NA.Fh2kQ3vezCnuRDlUeqemdUc6yrmJxVfc.knfPCDlHOOVTgMa,Yucatán,Karla Mendoza,Mérida,2024-08-15 00:23:23
+100,Malú ,González  chacon ,malu@casasluzyucatan.com,9991723432,$2b$08$WmoE3R5tsoexLEiFzBUdCOAY.HoHB.9C3aRx44O7y8//zOkFtLMsK,Yucatan,Casas Luz Yucatan Bienes Raices,Merida ,2024-08-15 00:23:23
+101,Caro,Quiñones,caroquinones@remaxtanlah.com,9993429705,$2b$08$WwKjGDmdZ.Dfgwr1VbgG4u7HGH801jsPliqrB1PhNC29kDc6Bh2He,Yucatán,Remax tanlah ,Merida,2024-08-15 00:23:23
+102,Angélica ,López ,angierealtormerida@gmail.com,9991740507,$2b$08$lnUJwy3azj8nxadZ8qHFy.TTUvJheJaLK283qOJWH1PQ8TMVCRBwG,Yucatan,Lighthouse Yucatán Inmobiliria ,Merida ,2024-08-15 00:23:23
+103,Juan,Zuñiga,ja.zuniga.gtz@gmail.com,9991550357,$2b$08$fTkjIILnJG1nDwtoNjKiSe8Scj20L1CPmHuetZNqobcMHFjaCFAvG,Yucatan,Alfa Innovación Inmobiliaria ,MERIDA,2024-08-15 00:23:23
+104,José ,Camara Cab,josecamaracab@gmail.com,9901957112,$2b$08$tSlN6k/i.uu0PzssVAryE.sdiT83TaT8AiX1Io6yhHZXBzKCt8jpC,Mérida ,Inmueble 29 ,Yucatán ,2024-08-15 00:23:23
+105,Noe Alberto,Calvo Cid,meghan.noe.yl@gmail.com,9999556244,$2b$08$Tz62fAbhejRXC8LBqxzy5uxrAiH6vfltpFHSRNxGYSYnDCfpryRnC,Yucatan,Meghan & Noe Yucatan Living,Merida,2024-08-15 00:23:23
+106,REGINA,DURAN,admonlunavista@gmail.com,9991641805,$2b$08$WOtl5NGpCsvf1lcOUtcNz.G406CblSkrRjAixF5RxzRpe36QHRSyi,Yucatán,Luna Vista Bienes Raíces,Mérida,2024-08-15 00:23:23
+107,Addaelena,Nieto Conde,inmobcdec@gmail.com,9995989010,$2b$08$0Xvwacq03FHu4Xw8XDHM1OV7r9Qe6ADsnjBQfJBOzIGw8weXxBwiC,Yucatan,Cdecasa Inmobiliaria,Mérida,2024-08-15 00:23:23
+108,Kavana,MB,"kavanamasterbroker@kavanabroker.com
+",,$2b$08$x4KrMiJDVR6Ke9gi5gfbFut5qVtUZeAH1LKE2u3gEJnYuXQj9DEwu,Yucatán,Kavana,Mérida,2024-08-15 00:23:23
+109,Kavana ,Masterbroker,Kavanamasterbroker@kavana.com,,$2b$08$PbPtIP06cmnzJrYkmb5R0O0lkoqPgwS50OZHXuYrMNGVJDdjwsv3q,Yucatán,Kavana MB,Mérida,2024-08-15 00:23:23
+110,Jorge Carlos ,Gasque lopez,jorgecarlosgasquelopez45@gmail.com,9992338899,$2b$08$VYDihshFkb1gHWuIlxkZOOObGHu6MjLfYzIcp3T6iqXXlzhmXyV3K,Yucatán ,Kairos Inmobiliaria ,Merida,2024-08-15 00:23:23
+111,Jose Manuel ,Marchand Cabrera,kose.manuel@marchand-inmuebles.com.mx,9992103565 ,$2b$08$W2GoafMa68dEuJiN4UwG2eg9QVXuUhi5.WfOC5N56zytM3npej1ye,Yucatán ,MARCHAND INMUEBLES ,Mérida ,2024-08-15 00:23:23
+112,M. Yolanda ,Hernandez Esponda,yola2172@gmail.com,9991739609,$2b$08$mbDp4E3yzmk4iczflxY13u69b/yDwUz0aS3za5fIa33nEK7Fer17a,Yucatan,Independiente,Merida,2024-08-15 00:23:23
+113,Verónica ,Flores Gonzalez ,veronicafg64@hotmail.com,55 1455 1033 ,$2b$08$ELqf2aAHyO5rekONa9ou9ubnByDWI/mey6u6xBC6hVYNXnC9S4Oc6,CDMX,"Boeta bienes raíces,  SA de CV",Ciudad de México ,2024-08-15 00:23:23
+114,Jose Manuel ,Marchand Cabrera,jose.manuel@marchand-inmuebles.com.mx,9992103565 ,$2b$08$APHLzCOqPTdyz.Xnfbs2NeKEYSC0rfu5.gZITQWY9wEo7Ykp5nWHa,YUCATÁN ,MARCHAND INMUEBLES,MÉRIDA ,2024-08-15 00:23:23
+115,CONCEPCIÓN DEL CARMEN  ,Magaña Rodríguez,conchimrodriguez71@gmail.com,9991150245,$2b$08$xaNwlL7fUzgKvOuDEViQWu87kdoINQgteRQKVsemHntef2dEX6rU2,Yucatán,MAR Asesoría Inmobiliaria,Merida,2024-08-15 00:23:23
+116,Miriam,Hernández ,asesor.miriamhernandezcortes@gmail.com,9992617264,$2b$08$xnkodHNxGF0HJU9DWTrXxuwQkCiZld4HCEKo1QCkLKblevKW8znTO,Yucatán ,MyH Bienes Raíces ,Mérida ,2024-08-15 00:23:23
+117,Reyna,Cossío Nuñez,reyna_cn@yahoo.com.mx,2226278210,$2b$08$nvybD3h2OIsM7DrVWu.M1.5DeV6YDH18lpydQ7vumC3Yl45SB7cUm,Puebla,Garcoss,Puebla,2024-08-15 00:23:23
+118,Trinidad,Lopez,trinidadlopez@trivapeninsula.com.mx,9993333536,$2b$08$QQCVxWcnrXpYznZ/bUfDcu9ecyekk6L1PcleZvJZWaAvPdWAaAWrW,yucatan,TRIVA PENINSULA REAL ESTATE,merida,2024-08-15 00:23:23
+119,NATALI,GONZALEZ MENDEZ,admon.residencialesmerida@gmail.com,999 994 8094,$2b$08$2VtUDS.66nZHxlZpMSxaAe4jJYJ9O26BPEuG2.Mr5HQpeaWTeu4oK,Yucatán,RESIDENCIALES MERIDA,MERIDA,2024-08-15 00:23:23
+120,Noelia,Romero,noeliagarrell@gmail.com,9994153411,$2b$08$UbR1UrkrO/N1EGDzEBCaWu6B7bEr6DxBynaKrFxL/Dm1hkEl54E3m,Yucatán ,Kairos inmobiliaria ,Mérida ,2024-08-15 19:29:01
+121,Karina,Zaldivar,karinazaldivar@novvarealestate.com,9992434436,$2b$08$QEDjGpGrzWcRXVFzFjVOEeaqiLgaLs3W7sp5.MJBvgYQpYF5.sD0u,Yucatán ,Novva Real Estate,Mérida ,2024-08-16 17:17:52
+122,Tania,Bandera,taniabandera@hotmail.com,7775606080,$2b$08$8.Ph/meqU3BiajnYW9T1H.JR7M2MGO3h2MMrV0eI97bIQ2Dlkk0Kq,Yucatan,Independiente ,Merida,2024-08-20 00:08:29
+123,RICARDO ,LOPEZ,rlopez.lorey@gmail.com,5533339141,$2b$08$M7BseLIATAF1egqPjXsPge3K/yrs3zMOIwzXRrBnk/fOpr2D2ZJqi,Ciudad de México,Lorey Asociados,Iztacalco,2024-08-21 21:05:02
+124,Antonio,Barroso ,a.barroso@sakaab.com,9991352538,$2b$08$vJ/alqOd1QKtEU1vSf6XZuibc2CoHMfw/Pfp.IeOP2S1kBzTg5AOW,Yucatán ,Sakaab Inmobiliaria Peninsular ,Mérida ,2024-08-21 21:58:04
+125,ana,yañez,anayanez@novvarealestate.com,9995075716,$2b$08$Tsm85ReBDpcz2ywkcfE5eeu54gpXaaAZY6pX5aSd/QBG05FJ51Key,Yuc.,novva real estate,Merida,2024-08-22 20:16:06
+126,Mary Cruz,rodriguez Gonzalez,mc_degomez@hotmail.com,9991406440,$2b$08$ZXLvpd6wX.pEKk5xy1d5KO38jkhVvWJyQrc6rif3Cu1WbmT5oOmSu,merida,Xhaktun,mexico,2024-08-27 19:46:45
+127,rafael,guerrero,Rafaelguerrerooz@gmaill.com,9991725754,$2b$08$YTozm6wz68rZQjmJgHDhcOjdMGKSt7A8stQTLvhfRS0qa4s5sV22i,YUCATAN,Rafael Guerrero,MERIDA,2024-08-27 23:58:47
+128,Liliana ,Fierros,fibalibienesraices@gmail.com,9992715011,$2b$08$tzxVgusoxosTL5BXnYxwWO/u.g5kNhfeEYiwF7ouW0DEn4r18d322,Yucatán ,Fibali bienes raices ,Mérida ,2024-08-29 16:27:52
+129,Mónica ,Somarriba ,somarribaalcala@gmail.com,56 4568 2209,$2b$08$enL24vA5EVyrcR8UCdb.COiWCfxJxF0GcsKIQBA4/HO03nYr7Eo.q,Yucatán ,Independiente ,Merida,2024-08-30 00:28:11
+130,Rodrigo ,Arechar ,rodrigo7arechar@gmail.com,4441157908,$2b$08$wfwixpZXP64KCKGDuFwXg.rBUfK31Ut2SkIT2b.HiTIUuOsjYH66G,San Luis Potosí ,Independiente ,San Luis Potosí ,2024-09-02 00:22:33
+131,uno,prueba,unodosprubuno@gmail.com,9999999999,$2b$08$BF5yEL1ACURO6kGgHwvy2eJhsEljXGfzFLvuEqRA54KR5YOVIRFh6,Yuc.,prueba,Mérida,2024-09-02 17:24:03
+132,Arturo,Campos,southouse2024@gmail.com,5615468667,$2b$08$GPTuhDGb4Ufg.OPhNizo5.jQt6TMDwbEuUN9SJJhSWMUHUhoZ6x/a,Yucatán,Independiente,Mérida,2024-09-02 18:16:13
+133,Marisa ,Eurosa ,nnovi@hotmail.com,9999698463,$2b$08$dk3Xcgxg/eycUHPr9CPHm.t0P99adXI7OkAvjUBZ11vddO3d.mPDW,Yucatán ,Vive Norte Inmobiliaria ,Mérida ,2024-09-03 01:54:20
+134,Alan,Islas,alanislas_10@gmail.com,9996407094,$2b$08$8lQrzALWRhSw4Cx5tLkic.U5bPBPul5K7AniJEExYX54BHVZuhdBu,Yucatán ,independiente ,Mérida,2024-09-03 21:00:19
+135,Uriel ,Tellez,Asesor.urieltellez@gmail.com,9991 91 05 22 ,$2b$08$ogjBCMKtepe18nBhqgs3huZahuYOKD6x/gsB4QPalVffzBFtbQoTG,Yucatan ,Red Home,Merida,2024-09-03 21:01:42
+136,Alan,Islas,alanislastolentino@gmail.com,9996407094,$2b$08$6f1QYi9Ah6GE8Dbj1u6dW.MctdGfUoBVNvZxr7NgvhzjnA1a4N6Ry,Yucatán ,independiente ,Mérida,2024-09-03 21:01:57
+137,Miguel ,Tavira ,infore9ve72@gmail.com,9993493545,$2b$08$xPlGZXh43pHB5QojAZxCteapzMi8iqGP/aa7NMd/GQDV4erswZE3.,Yucatán ,RE9VE ,Mérida ,2024-09-03 23:41:25
+138,Juan Carlos ,Ruiz,info.re9ve@gmail.com,9996484622,$2b$08$6yFTRkZLJUVYxSzbSNCRO.3zkVzPJCJIQBFIDReAULBE16uzl3A1i,Yucatán ,RE9VE Proyectos para Vivir ,Mérida ,2024-09-03 23:51:37
+139,Xama,Martin,xamamartin@gmail.com,9992410152,$2b$08$I/On1d3v.3bZlaoRH23GLeFdFLU/ABN7wg206QTxJyUh7vhO4y81.,Yuc,Future Home,Merida,2024-09-04 03:56:05
+140,Estephany ,Domínguez ,estephany.dominguez@inmobiliariaeh.com,9994451044,$2b$08$YoTv4Q6SVEg7D76MzlMFhewmXLgNlQhxrPiE7Mc8kqpNwCzJEdYWW,Yucatán ,EH BUFETE Inmobiliario ,Mérida ,2024-09-05 01:36:48
+141,Carlos ,Euan,Carloseuanmartin84@gmail.com,9992330254,$2b$08$bNY9bFY4a6zKGP4r9p.8H.TMDL1GL.p2tQkgW95Otx29zOsyM3Wr6,Yucatán,kavana master broker,Mérida,2024-09-05 16:35:47
+142,Azul ,Hernández ,ahernandez@espacioazulinmobiliaria.com,5580481330,$2b$08$7CprRNibxjpvvZSGv6sHj.K43AaWHNqb8mkpEDz/WIUebueHF0JOC,Estado de México,Espacio azul inmobiliaria,Estado de México,2024-09-05 21:24:11
+143,LUIS SERGIO,ACOSTA VALENCIA,sergioacosta33@gmail.com,5569714483,$2b$08$UyxFAyA7B4UvE2SKcR1a4OLXl4SNK3uHKfcYG/r6h8bTmkfo2//Yq,Ciudad de Mexico,VamiHouse,TLALPAN,2024-09-05 23:55:19
+144,Lizbeth ,Pech ,lucellyliz93@gmail.com,9993979550,$2b$08$XndNkW2m5pwuQcI2eXTZy.7sZxyDyOZQUGw94if2y903.tcDqrQZW,Yucatan,Royal Home,Merida,2024-09-06 21:10:53
+145,Martha,Uc,martha.uc@grupobci.com,9992412619,$2b$08$AFxqVH.Y/fsRLS0IWpR1WOsfJ5AtEaUia.kfr71X/13afqoEm2cPq,Yucatán,BCI,Mérida,2024-09-06 21:25:46
+146,Carlos ,Villanueva ,carlosvillanueva26@hotmail.com,5539409532,$2b$08$7/wwB9Et.aq8Vi7IgARrvegky2CnJNCtMwuxV2V8FL18ZDfMth9ke,Ciudad de México ,CV inmobiliaria ,Cdmx ,2024-09-09 21:33:54
+147,Marisa,Eurosa,marisaivonn@gmail.com,9999698463,$2b$08$LasRlx8Qj0EUNRRNYNIo3uwfi3BFi5zf7pQfbHTAJiMjCVO1cRMr6,Yucatán,Vive Norte Inmobiliaria,MERIDA,2024-09-11 02:17:48
+148,Sergio ,Buenfil,sergio.bl@vivenorte.net,9992698743,$2b$08$h3p.8Ehyrx9iZroQCtvYB.HMmP/WauSwh8l3bKT9QlTGMgjSx1xLq,Yucatán,Vive Norte,Mérida,2024-09-12 19:11:10
+149,Alvaro,Bermudez Mota,abermudez40@hotmail.com,5539064110,$2b$08$JmDQWK1WmzezO5nnVHsibOslhwGo0SIQUpv386Ug8kiYomzX8Zgai,Distrito Federal,independiente,Ciudad de Mexico,2024-09-17 21:01:43
+150,VIOLETA,CHAVEZ,violeta.chavez@baysideyucatan.com,9994184827,$2b$08$8F6HXoTM5b07eNbxlc.VFuBA4d.p2OaoCj3lZXS5bb/YhBIUUeRNS,YUCATAN,Bayside Real Estate Yucatan,MERIDA,2024-09-17 23:14:32
+151,Adriana,Salazar Lule,adrianainmobiliariabsmerida@gmail.com,9996039916,$2b$08$qbjFJ/0/q6F7PtnFARoIWefMhW5ZHP9RDK2c22U1al3YUQNuVCnJa,Merida,Inmobiliaria ES,Mérida ,2024-09-18 19:37:02
+152,ZORAIDA ,Monsalvo,zoraidamonsslvo20@gmail.com,9811330287,$2b$08$wEJszhLRuG8iTIa5hHUg0O/pXnDN6SAst5gjFSMdqYV2ElRzv44kK,Campeche ,No tengo ,Campeche ,2024-09-19 01:01:16
+153,Carmen,Morocoima,csofi.ma@gmail.com,9999588943,$2b$08$/d/W6hD7DDBvw3eA0Ussm.EWiTbUQK2sSTwrDkQ2sOKDH6w5fX5RW,Yuc.,Corporativo Patrimonia,Mérida ,2024-09-19 13:20:45
+154,Israel,Rodríguez Mejia,isrodrimejia@gmail.com,9999704334,$2b$08$qV4HxPVH8Ltdg22lvAdpVObQnh9MXFrycidAlfH5ysyj7i3mWWkji,Yucatan,ISRAEL RODRIGUEZ MEJIA,Mérida,2024-09-19 17:11:19
+155,Jesica ,Becerra ,jesica.maderas1@gmail.com,5523234213,$2b$08$UgRbE1nzwsOqtyLQQTMHcuMMIn6oOzeKc3NjqULepUzg.niWgvD/S,CDMX,Ciudad Maderas,Ciudad de México,2024-09-19 23:17:03
+156,Olga,Cervantes López,meridainmo@gmail.com,9997697790,$2b$08$6NjX.RKRJReiN5KGAkd5BeGocsjOkDaChwClAQ7/vWGLoQJWcrlzW,Yuc.,MERIDA INMO,Mérida,2024-09-20 02:57:37
+157,mirna ,Ku,mirna.kpe@gmail.com,9982182737,$2b$08$9M5ihwfiNSKy7moEF2UJbeFj9VIg1U.OLdh0kpDqEw19CiPy39E42,Quintanaroo ,LC by MirnaKu,Cancun,2024-09-20 15:08:00
+158,Miguel Angel ,Reyes de la Cruz,live.inm2@gmail.com,7224582656,$2b$08$TJJQa/jU1vh1s8qODt0tUeMCqEhOQRne7Go8E6lSj.EQDu6oA.qLS,Quintana Roo ,Miguel Angel ,Playa del Carmen,2024-09-20 16:23:20
+159,Miguel Angel ,Reyes de la Cruz,live.imb2@gmail.com,7224582656,$2b$08$HO8.H1XFh9dJIOHp9BXa/OHYBENetjxoNqPdA7VfTyuDcUlo3Bghe,Quintana Roo ,Miguel Angel,Playa del Carmen,2024-09-20 16:27:17
+160,Carlos Esteban,Rodriguez,nfscarl@gmail.com,3222637620,$2b$08$bVTF05JZC.98mnXjWNHFLuGEaBtlRKnlLeRCecS6sEc6L99Fs6dZu,jalisco,elite realstate ,puerto vallarta ,2024-09-20 17:26:14
+161,José ,Montenegro Figueroa ,josemontenegro071295@gmail.com,3342556655,$2b$08$6YtPRiYrrW11kz2lMit.wu6WtSgwXFn64cGS25o/cDa.zW4YLBDJ2,Jalisco ,Broker,Lagos de moreno ,2024-09-20 18:33:23
+162,Alejandro Mariano,Estrella Sierra,alsishop1985@gmail.com,9161428069,$2b$08$vtHMpOL8bf2BjlXU4V67hO60FhVh.BH/SXa0muZCJnIf.l5LSxbs.,Yucatán,Independiente,Umán,2024-09-20 20:57:46
+163,Hector ,Gomez ,ventasdeccasasmx@gmail.com,9651277826,$2b$08$.Pvtjqk/TkMUH8v.sLxqAeURWyzntYcYl5dlStW6Acj1ub0mmoc.i,Chiapas ,Independiente ,Tuxtla Gutierrez ,2024-09-20 21:26:16
+164,OSBELIA,JUAREZ VELASCO,juvemaosasesor@gmail.com,9999026267,$2b$08$Tckxf.8EV40G1AUe5hVxS.FeVSFccGY4Bxra.qNutWgVPesxULlqC,YUCATAN,OSBELIA JUAREZ VELASCO,MERIDA,2024-09-20 21:35:50
+165,Daniel,Leyva,contacto.altezzamexico@gmail.com,5642758469,$2b$08$JV9WYEu7GNFmsvMibq/yxOrUg5zoEsqUSMEG4pzrp.kuIef257zvi,Puebla ,ALTEZZA BROKER,Puebla ,2024-09-20 22:28:26
+166,Raquel,Pérez Hernández,r.cidossoles@gmail.com,81 1727 2418,$2b$08$8/SFMAfijfrjOVpNtmaTDuLLsXI8EqHottKdEoK54L/NE3HMq9ytC,Yucatan,Raquel Pérez Hernández,Mérida,2024-09-22 16:37:09
+167,Nelly,Barranco,nellybarrancolo@gmail.com,722 616 9145,$2b$08$qGfM8fqYTD6LTzqxPT0BBO2yQqgvP5CJ6WkgF//7cr0K49RwSUdc2,Yucatán,eXp Realty,Mérida,2024-09-22 16:50:09
+168,Rene,villanueva,jvrebroker@gmail.com,562-239-8011,$2b$08$.mzD5ak0yssIMw9KlgGkUOzuT5YHL3g6uOa6RFO1mG6oPe1.tyXnW,California,EXpCommercial,Cerritos,2024-09-23 01:21:20
+169,Alejandro ,Alonso ,maralexventas@gmail.com,9845360799,$2b$08$bw14P.QkjpkYJB0UFaZUAOnpDk3WYlo5Cc4oMKYbGYOQhvat.x5Dm,Yucatan ,Peninsula 24,Merida,2024-09-23 18:31:34
+170,Cesar,Amaro,cesarm_amaro@hotmail.com,9932427789,$2b$08$Nh5GEwQc.dIBaaqvCIENweZmLS8lYCV35bq0bHgll/l/GP3STbqpq,Yucatán ,Cesar Amaro,Mérida ,2024-09-23 19:20:15
+171,Daniel ,Muciño chicho ,dmuch35@gmail.com,5549563376,$2b$08$F0EpWbtJ/.O0LlHYo16hq.I///tIYMAkWZqEVRA69dNhVz9UG3vd.,"Naucalpan, Edo. de M",Ciudad Maderas,Ciudad de México ,2024-09-23 21:49:09
+172,Myriam Jennifer,Peña karam,jenniferkaram479@gmail.com,9995424868,$2b$08$Bfjg6EzAk/1g/3wuihihQOyeaMo68EgYKg4ND/bYRYr1/v1WoSMla,Yucatán ,Independiente ,Merida,2024-09-23 22:54:05
+173,Alex ,Cervera,alejandro.cerv.mx@hotmail.com,9999064864,$2b$08$Ea/GHzGuU2rSE50cBhT8.eW1FoNRhq7lBXhY5gHrcdG1YM/6M3Q1e,Yucatan,ACD Desarrollos,Mérida ,2024-09-23 23:53:18
+174,Roberto,Serrato,r.serrato.r@live.com.mx,9997496552,$2b$08$ssH1Vc/BlHYIaGbYeeB0Yutb0eE3Pe3TTXMG69lg6OMqRk1ZKesTq,Yucatan,ACD DESARROLLOS,Mérida ,2024-09-23 23:55:10
+175,Maritzel,Gaona,mari.16gao@gmail.com,2791047886,$2b$08$HdDVO3Ltr/tZrB3UcDy3W.QJJ96M6XHxdYUIZbD2YtpyhoryYXwNS,veracruz,Arborium Inmobiliaria,xalapa,2024-09-24 03:08:04
+176,ruben,rojas,rubenjrojasm@gmail.com,9981661382,$2b$08$xTAu7Oih.zp/I9AcHVI1GOTIRqEb0hV9wz5yTShNPnFozuCOAKqQO,quintana roo,Domus Aeterna,cancun,2024-09-24 20:50:14
+177,Krista ,Welson,kristaweston@hotmail.com,+13067131362,$2b$08$d593Pbn4I.81jOetBXOhEuIuvY0T1ZKZFGnrGfiQFkux8.GUrQ3B2,Saskatchewan,Bayside Real Estate,Canada,2024-09-24 22:14:41
+178,Denia,Hernández López,denia.hernandez@taanajriviera.com,9996376353,$2b$08$nZqNrow.1AZwBB7yyeXk9uGySjpWJzhO2Fs81ys5leqXjWxql1ZyK,Yucatán,Taanaj Riviera Inmobiliaria,Mérida,2024-09-24 22:17:46
+179,Oscar,Ramírez ,conxiontotal270@gmail.com,5563682964,$2b$08$b3C4nnRNzBofeIGhrqlKZe/BU4kPxXfCrccp5QJRsluxjxpgptLfy,Yucatan,Broker Independiente ,Mérida ,2024-09-24 23:39:14
+180,José Pablo ,López Vázquez ,aj.arq.asociados@gmail.com,2227391623,$2b$08$Ra.7vNlAAA.thqo09o1cfOz1HPyuoRyjDFTvP.IFW.s.NdTmIagq2,Puebla ,AJ Arquitectos Asociados ,Puebla ,2024-09-24 23:56:36
+181,JORGE ,REYES,jorgereyes@ikieroinmuebles.com,8188687401,$2b$08$NZ..z.B3J2BINn7FKWSPo.lJde/.J/bQdosdESxAybheavUa7CwFq,NUEVO LEÓN,IKIERO INMUEBLES,MONTERREY,2024-09-25 01:52:57
+182,Oscar,Ramírez ,comexiontotal270@gmail.com,5563682964,$2b$08$zfJ7BLI9UEh/sFpwQhFRlOTLv2Lhnq9.Uvyk5KOq3fg32qU1W81P.,Yucatan,Broker independiente ,Merida,2024-09-25 03:53:04
+183,WERTHER ARTURO,Núñez Ugalde,nunwerther@gmail.com,9981087574,$2b$08$gp8nNY/HG4WGPGa1RhjAKedlY3Fx72LxrJMuAYjuK5QChorVaTERO, ,Wcaribe,Cancun,2024-09-25 19:49:55
+184,Miguel ,Ceballos Castillo ,mikiacero07@gmail.com,3332427217,$2b$08$i5lRvkiN6qk5MC34JQcN/exaJ20IfIMN6nEvNUG6vMQudBdv1z6AS,Jalisco ,Independiente ,Guadalajara ,2024-09-25 20:09:31
+185,juan jose,aguilar,juanreszo300@gmail.com,9993678391,$2b$08$QokTCjKVsvMsCnMgVWlnSOfS1QVTU5r.OUzfA.0PZd7cmqrRlHIri,yucatan,independiente,merida,2024-09-25 21:45:58
+186,Juan ,Aguilar,viveelitepeninsula@gmail.com,9993678391,$2b$08$ut11AHin7X.FpSknDE411.0tHDb/uuQJDdbV5mUIUKzexkI4sUn92,yucatan,independiente,merida,2024-09-25 21:48:59
+187,Maria ,Arellano ,maria.arellanobr@gmail.com,5610189122,$2b$08$8nZ1fMNZo4.jBRJG7T.4QeQ5rSYmKCJSTm/0FGwffby4nDOroLkxi,De México,Independiente ,México,2024-09-26 11:32:25
+188,Teresa ,Gonzalez arzola ,teresa.gonzalez.arzola@gmail.com,6366936398,$2b$08$2FhxIx51sHFi2ukGU8A11..7c/Mg.Dtw3RWPzpAd58xfXX76kTSUe,Chih.,Teresa Arzola ,Juárez,2024-09-26 17:19:19
+189,Blanca Azucena,Magdaleno Pano,blanca.zuzi.mp@gmail.com,744 263 4851 ,$2b$08$xZgM60v7/K2DpB8spvfcT.SgbBjPRKYJ8QQaG39BCGCT0mCwnmhH2,Guerrero,Investa Realty,Acapulco,2024-09-26 19:28:32
+190,Jorge,Tello cantón ,asesor.jorgetello@gmail.com,9995019422,$2b$08$mWlBNq5LI7R4PzSK5lRD3e4C2t0CASQznVwJL73s0TyOhlbJIX6Vq,Yucatan ,Broker,Merida,2024-09-26 20:16:26
+191,SERGIO,MEZA,misistemadeventas@gmail.com,9991083236 ,$2b$08$WXP0rycTme1F5HoJbT4gxeqiMW1h1IK3pjv9O0zrFzcrJMWAV0MRG,Yuc.,AUMS890813G31,CONKAL,2024-09-26 23:29:24
+192,Carolina ,Juárez Arias ,cajuar14@gmail.com,938 104 1876,$2b$08$UctBFvdhpxNSl9RNzdl1dedpEeOjDbPoobrlV.ZirlQifaqJYbiqi,YUCATAN,Carolina Juárez Arias ,MERIDA,2024-09-27 18:03:02
+193,Leticia,Alvarado,leticiahac@hotmail.com,9991093265,$2b$08$xPRYek3799DySxRJe0VHKeocI1nN43XAmFjqqdMmTmAKBIMLi6Sj.,Yucatán ,Keez Inmobiliaria Mid ,Mérida ,2024-09-28 15:41:36
+194,Anndy Cleyver,Balam Pech,anndyb44@gmail.com,9997434588,$2b$08$nN8yoSi6E9RLCEyPmA3zE.9Ef9.lH5viUIB//74F0Nui.Z/sMHO36,Yucatán,Independiente,Mérida,2024-09-29 00:48:23
+195,Eduaedo,Vázquez ,evazvi867@gmail.com,9992710308,$2b$08$UOfXyDaUt.D9xEQBp7abu.fgQ.ySqt/m9tVK8GfYIwX6mNwSVE/xu,Yucatan,VR HOMES,Merida,2024-09-29 18:17:20
+196,Conexion,Total270,conexiontotal270@gmail.com,,$2b$08$lkXspirQ1cwVCEHQza3oGuyNXg5fQCcrDpjzA8ezhEuDdJwgmMf7O,,,,
+197,Marina,Damas,marinadamasvictoria@gmail,999 1573801 ,$2b$08$DGDsjpQl3V5S5Kqk.84QpOVWlj3i96upk1wYo7ez6RTQ1QefvlOp6,Yucatán ,Asesora ,Mérida ,2024-09-30 18:41:38
+198,Itzel,Almanza,itzel.bienesraices.bcs@gmail.com,612 127 4121,$2b$08$Ck8dGbxhgmv8fyhoSAVa5Ola4GM6FEaXca4Rogy54gbf6JTWgpg1i,Baja California Sur,Bienes y raíces ,La paz,2024-10-01 02:59:09
+199,Abraham,Garcia Balanzar,gababraham@hotmail.com,7443445508,$2b$08$scEgUXlxYzAZjUhYLze6we4fssGwSCPRIAgJAzhmB6/6LZTxwzVb2,Guerrero,Araess Inmobiliaria,Acapulco,2024-10-01 03:34:25
+200,Octavio A.,Garibay ,impulsorabr@gmail.com,5637354512,$2b$08$.aqONjkC99yvCwee8fkOH.04VbqWzM6sAMkFdoWdkOS6F6s/2OAEW,CDMX,Broker inmobiliario ,México ,2024-10-01 06:50:21
+201,Karla,Vega,karlavegarochin@gmail.com,6681874762,$2b$08$GAlozx4bJo35JZAxls4WPeduNuBqorDHUiPmflmHOjG7CkUr2bwU.,Sinaloa,Castillo Bienes Raíces ,Los Mochis ,2024-10-02 20:28:49
+202,Gibrán Felipe,Salazar Flores,inmo.gibransalazar@gmail.com,5645660599,$2b$08$7YHXIB6ndzbBt53NolSPhO/M9zr6izHOmh16ImfJ1DXKAgPrWnCGS,Hidalgo ,GS.INMOBILIARIO EXPERTO,Pachuca,2024-10-03 03:39:10
+203,Gloria Ivette,Bernal ,gbernal1411@gmail.com,5576951653,$2b$08$wmuv7/mJiaNhL8htdUzheOZiRrsru9MFBls1Q3O6lwLsZwc.buDQm,Cdmx ,Independiente ,México ,2024-10-03 16:44:06
+204,Israel ,García ,estuhogar.ideal@gmail.com,5541105353,$2b$08$R.OPbbEtcm6rAy7w2HyIEuuAmE6rOp9vq08mC0xNtoDveejP8L/5u,Ciudad de México,Independiente,Tlalpan,2024-10-04 18:28:17
+205,Gerardo,Cordova ,yucatanreal@hotmail.com,9991216068,$2b$08$GmNwUSLlRdrmpPtwouy09O2aEW9LEYczllC4Qo/AsTGIObzjR.vuK,Yucatan,Yucatanbrokers,Merida,2024-10-04 18:34:58
+206,Juan Antonio ,Sarao de la cruz ,psic18.juan.sarao@iunis.edu.mx,9361274718,$2b$08$F/mYGsnVkW4.cMzkUN7nzOpVP48mYtLX5CE7gooel6UCwtld5huee,Yucatán ,Gio Desarrollo ,Mérida ,2024-10-07 22:13:02
+207,Fernando,Rodrìguez Castellanos,nando@ucapital.mx,9999562850,$2b$08$ae6t6qL9hNOX5SIqoZ2oq.zmKi7cUYKHk/5fei8.euF5MIa7I2wtu,Yucatán,U-Capital,Mérida,2024-10-08 02:48:37
+208,Fátima,Pichardo,fatipichardo@hotmail.com,5578984183,$2b$08$gtnARyPejfVG.hZJ9Q/U8e.A2VZ927KV.A98zF5R2/GCGFyJOfrtq,Cdmx,Independiente ,Cdmx,2024-10-08 16:25:09
+209,Yaris,Argüelles,Eyac83@gmail.com,+52 1 999 278 1,$2b$08$L2eoTeZTchUR2XHETy0WZOgHhCvMxI6bISC6XU5UoNcph.GGw3yPq,YUCATAN,BASE CUBICA,MERIDA,2024-10-08 18:35:30
+210,José Luis,Haro,contacto@squarecapital.mx,+52 1 999 143 9,$2b$08$nhI6Hmp.RE.fBcQk2/LkoOaH5Q2mp2N9oGyCAr0ywGOQpZpuDnzvC,YUCATAN,SQUARE CAPITAL,MERIDA,2024-10-08 18:41:51
+211,Francisco ,Rodríguez ,albertorodriguezarana@gmail.com,3318380147,$2b$08$/jpldoLk2wiw5dDXHxZe2e3MTZiriI9keF2N25vkd./X3l5kTHgV2,Jalisco,Wotoch bienes raíces ,San Pedro Tlaquepaque,2024-10-08 18:44:02
+212,Natalis,Vivas,info@natalisvivas.com,+19549142646,$2b$08$lVrj1TR/971QnikGqJFrC.HESOgLF/i9gYQm/kAO7SrFKrN0ehBCS,FLORIDA,eXp Realty,MIAMI,2024-10-09 00:39:24
+213,JESUS ALBERTO,MAY MADERA,jesus12_may17@hotmail.com,9991284468,$2b$08$05tquiVIqTAK6S8kOiXfSemF5JA3w74/t3TNLuSUZaZ4oDKh.wIfC,YUCATAN , INDEPENDIENTE ,MERIDA ,2024-10-09 22:38:13
+214,Naye,Escamilla,nescamillabroker97@gmail.com,,$2b$08$EnOTV7rPNLRLj1thzbtfMOY4CCUVgokka/Wji5t9iWagJ9HRQkYk.,Yucatán,,Mérida,2024-10-09 17:53:05
+215,Eduardo ,Torres,dolar10_@hotmail.com,9993422209,$2b$08$zx9QMAdgmtrnbfTvhsNTi.oRYSxxKA/ot3eoX0nQw3MAAcNXI5kva,Yucatán ,Independiente ,Merida,2024-10-10 18:24:09
+216,Gilbert ,Baeza Miguel ,miguelbaeza2878@gmail.com,9992216705,$2b$08$T3SUxE/t0V5BUCPyo1RixOqyPsPrl5RprTnNbsoEWay3IoP9ngXqm,Yucatán ,Inmobiliaria 4 patitas ,Mérida ,2024-10-10 20:34:40
+217,Claudia,Calcaneo,claudia.calcaneo@gmail.com,9994931220,$2b$08$luHZZHzDlBC0R7P97LaK7uY7uEFYUd2kkhM.crDGyx54ZX9hGlDYa,Yuc.,Integra Legal ,Merida,2024-10-10 22:28:09
+218,Norma Angelica,Mellado Hernandez,normaan86@gmail.com,7757605042,$2b$08$UyW6nnPI7u1N/8af87Ln9OcjDkdujsbGjDPvJJgRWWMvGX5wjC6vC,Yucatan,Independiente,Merida,2024-10-10 22:44:25
+219,Alejandro,Canto,alexandro.canto.realtor@gmail.com,999 949 2664,$2b$08$mlKe9fxeNYk70E501292Je4il.tqABKEUHx57577D.T2XHh7fBnAa,YUCATAN,ALEJANDRO CANTO REALTOR,MERIDA,2024-10-11 16:09:07
+220,Lissete,Cetina Canul,lissete.ce@gmail.com,999 564 5606,$2b$08$YDC5agG8ngIT8JcTffcoqeQ39lYDfz4NOUmvsgK.mB7sC0TupGrOy,YUCATAN,Lissete Cetina Canul,MERIDA,2024-10-11 16:13:57
+221,Jessica,Quintal,jessicayaz990@gmail.com,9995444581,$2b$08$P3d3DQX/w5C6USfUS2GPiOrvY8YOerHkmq6rbGnXLn329Fu0h/4Ee,Yucatan,Jessica Quintal Asesora,Merida,2024-10-11 22:21:30
+222,Antonia,Herrera Herrera ,herrerantonia73@gmail.com,9991272190,$2b$08$9WbRu87msPbrsqI4fOz7MO0wC0d6J.jzxvs44a9BLxMBGC2EOh6jO,Yucatan,Independiente ,Merida,2024-10-11 22:50:54
+223,Nayeli ,  Barraza,quetzalimb@gmail.com,9996040153,$2b$08$.4zP11wvkOvMZ4iqCmiBo.SmG4xQtGx/sapC7c/T1AB41vvRxdt5K,Yucatan ,Independiente ,Merida,2024-10-12 23:39:49
+224,José Luis ,Herrera Gutiérrez ,gtzherreraluis@gmail.com,4447147804,$2b$08$VAtiwlAKpa09stK5pNpp0OvP78yjLYNvjdqIuYxrnFGbQJgp0bHx.,San Luis Potosí,HJL Financiero Inmobiliario ,San Luis Potosí,2024-10-16 19:37:49
+225,Denisse Guadalupe ,Ortiz Hernandez ,Den_84@live.com.mx,990 189 8308 ,$2b$08$fQNGodtCyh4yKJK8rKddBeYQgXGxH5gNJSAftYTsxzraZzT/PJ8Gq,Yucatan,Denisse Ortiz ,Merida ,2024-10-17 00:01:59
+226,Mirna ,Zubillaga ,zona.e.asesoria@gmail.com,5618797419,$2b$08$20wWxy0NkgqK2UbyIvL6BudxajG/dkNBQlGJbVms.LWM0mjG5R7k.,Yucatán ,Zona E,Mérida,2024-10-17 22:15:40
+227,Monica ,Montejo ,MonicaMontasesor@gmail.com,9999955002,$2b$08$it5x.5IujBZ20tEwmdymw.eHWQvwQRGteRgrm3cJUIvDLOzsCRJV.,Merida,Broker independiente ,Mérida yucatan,2024-10-17 22:16:57
+228,Carlos Eduardo,Ocampo Ortega,ocampo.ortega.carlos@hotmail.com,9991420812,$2b$08$ta9mDU4EHdxyTCsHVE.bEeuX8dcay6KSGTaxPAQR7amIaZK8aZ4p6,Yucatán,Caracol Bienes Raices,Mérida,2024-10-18 17:42:01
+229,LUIS,VILLANUEVA,luisfelipe@buyandrentmx.com,9999900986,$2b$08$Nf9REMJttIA7xfpsoMSsg.LwWeMSWYCqINXrWlWzsSr0Alkbj2p42,Yucatan,BUYANDRENT,Merida,2024-10-18 19:27:59
+230,Antonieta ,Lugo,maryanlugooficial@gmail.com,8114769783,$2b$08$27O.jUdFtmhSMjxzo16HfeuxUoazl1if4vdX9ZcdoBGJxPspldpqS,Yucatán,Bcm,Mérida,2024-10-18 21:24:05
+231,Ibet,Sanchez,Ibetsanchezfuentes@gmail.com,9992675101 ,$2b$08$d6Mxgt8eIuPQqfGM/ciUWeaWeVqTmN1tFFtIsKbEJC7sYy6.XUlL6,Yucatan ,Ibetsanchezfuentes@gmail.com ,Mérida,2024-10-19 17:15:42
+232,Jose Augusto,Echeverria Reyes,contacto@boxitoinmobiliario.com.mx,+52 999 136 130,$2b$08$YWVOYsVNwbRnkIdFFnCOGOqplaTUm5L/1JLVbokkPbyjn3MuKORyi,Yucatan,Boxito Inmobiliario,Merida,2024-10-22 00:23:56
+233,Jorge Adrian,Walter Montoya,waltermontoya9@gmail.com,9991189066,$2b$08$7jdO5ybaXyJZz2T2/Zm82Ov7stXKXy9J7u4DGu1gnV7Knw35swQIO,Yucatán,Inmobiliaria YUUMA,Mérida,2024-10-26 18:24:24
+234,Abril,Rivera,Abrilrivera@inmobiliariayuuma.com,9993347256,$2b$08$Np2XJhyy40PLUT2pNXXfwOz3jdAlitNXI3610KYqHfY2KtdahdeNy,Yucatan,Inmobiliaria Yuuma ,Merida,2024-10-26 18:34:55
+235,Celia  Del Carmen,Lopez  Chavez,celialo77.ai@gmail.com,5565572565,$2b$08$j69dxlT3uXHss6FZVI2sW.gHiJ5Rc38IP3BcRWA.OzcwYTT7ALLWG,Quintana Roo,Independent ,Playa del Carmen ,2024-10-29 13:14:47
+236,Armando,Lara Villatoro,soyarmandovillatoro@gmail.com,9997713012,$2b$08$zh6Lv7GTkBCw2c3CLbeUv.eiHF.LyhfH6h343zq2rkbdFmbw1ynOa,Yucatan,Villatan Bienes Raíces,Merida,2024-10-29 22:54:39
+237,Fernando,Ancona Millán,Fernando@whitecityproperties.com,+52 1 999 224 3,$2b$08$uRLTYsueOPhBjR8ByrKIjunOrr84gUFdbkIYqRyQo1BXsAXcnlOYi,YUCATAN,White City Properties,MERIDA,2024-10-30 03:04:02
+238,Adriana,Aguilar,administracion@mudarseamerida.com,9992617373,$2b$08$qamhchS2jRjq91F8CNIZaOUZdSTirdH1G2OuuVASldS/2jrtGD/06,YUCATAN ,mudarseamerida.com,MERIDA,2024-10-30 20:09:25
+239,Amparo,Vega,avega@propiedadesenyucatan.com,9992712118,$2b$08$3b4hRqgzZLQd9br54RZNzuLFOPLyXHmr175yrXIvBn.oDPSzLiokW,Yucatán,Propiedades en Yucatán,Mérida,2024-10-31 15:38:54
+240,Elena ,Roque ,nanyelena32@gmail.com,9993447003,$2b$08$3V5VrCKR/AtC6queCqqf8O5xzT1mE7akVHl74ir3JOSLYAInRJKwe,Yucatan ,Nura inmobiliaria ,Merida ,2024-10-31 19:09:46
+241,Ada Elizabet ,Aguayo Aguayo ,aguayoada21@gmail.com,9993926848,$2b$08$4.Lx5v53UELgiLh/hGrtj.7kCm31fjBd7UIainfUsezbs.hno3MRS,Yucatán,Ada Aguayo :Inmobiliaria en Yucatán ,Mérida ,2024-10-31 21:39:50
+242,Erika ,Vela ,erika.velae@gmail.com,9994555890,$2b$08$1imXD1BrqCigdh6vsG7v1OuRDPtllxGGaWuC.LsjgA1wNf3Bdoziq,Yucatan,Bs merida,Merida,2024-10-31 22:21:23
+243,Roberto,Suárez,roberto.suba12@gmail.com,99.92.32.83.64 ,$2b$08$sGSoggsB.lLCJNWqOBsaIuN2.0t0s8OJ2F/OdgTSM8ipeIxxktzaq,-,SUBA Bienes Raíces ,Mérida,2024-11-01 17:04:00
+244,MARTHA,DE LA TEJA,marthadelateja@hotmail.com,+52 999 318 615,$2b$08$0VmAiWvVdR2G6J.1/E9gie2zJxS9jaC//c8VB/aEDLpnyltehW3/G,YUCATAN,GLOBAL REALTY,MERIDA,2024-11-01 18:10:38
+245,Miguel,Aguayo Barrera,joaquinaguayo@hotmail.com,+52 999 338 305,$2b$08$/3nhEu6jJ43mMGl8g/Z1LedciGS09jDrCH67KLfEh4FVDzk4gIgau,YUCATAN,Barrera Master Broker,MERIDA,2024-11-01 18:56:17
+246,FARID,RIVERO GONZALEZ ,farid_rg@hotmail.com,+52 1 999 968 3,$2b$08$w2noW99u/VpnZN.1ad1w4OFwu5im/lecjPuH5GfkUEY0ZY4X/Wnk.,YUCATAN,Realty Mid,MERIDA,2024-11-02 03:02:26
+247,Alberto ,Herrera Coriand ,ahbienesr@gmail.com,9672283261,$2b$08$t8AicVJleNpgwVBTj5yYwuPlAq0I8i2AbC4ZBq8PBxzxw1NL8xnlS,Yucatán ,Independiente ,Mérida ,2024-11-03 12:32:20
+248,ALEXIS,ALI MARTINEZ,whyyucatan@gmail.com,whyyucatan@gmai,$2b$08$GUJNlkIfEM7a3oRS9a7zf.87h7lmQ16DYxjcDJE5FQRqudoo.6EBG,YUCATAN,WHY YUCATAN,MERIDA,2024-11-05 00:53:02
+249,Atziri ,De la Garza y de la Vega,atziri@peninsulapropertyconsulting.com,+52 1 999 322 8,$2b$08$bqP75M8nD8iGDR5COTeV0.Ihd4x9Zj7vDZRiJr3CDgjcVSYhYfnEi,YUCATAN,Peninsula Property Consulting,MERIDA,2024-11-05 02:03:10
+250,JOSE LUIS,DEL VALLE CARRILLO,administracion@grupologre.com,+52 1 999 292 3,$2b$08$EBBe01QJrJaeQ78iYSpmWuYVGtOj5v9I1bXKL2ywS9ZDTeJlG1HT2,YUCATAN,GRUPO LOGRE,MERIDA,2024-11-06 03:51:47
+251,Claudia ,d Argence González,amcorporativoclaudia@gmail.com,+52 1 999 322 6,$2b$08$Dc8lQ8DPKJ9Ad9dA929.H.UflM.8BuG4U/j4J2vh7SFh7ickfaiDC,YUCATAN,Claudia d Argence González,MERIDA,2024-11-06 05:25:34
+252,PABLO,ARIAS,pablo.rsinvest@gmail.com,5519485384,$2b$08$Ju9WcYYTxrGV3XbQIm4OGODGjZzyb9doZBNJN9UkKBEXJjxxBqxi2,YUCATAN,PABLO ARIAS REALTOR,MERIDA,2024-11-06 05:28:56
+253,Oscar Eduardo,Vázquez Lugo,vazlu94@gmail.com,+52 999 292 541,$2b$08$iq1GLz4XChEWHtnp.nvnSuPYWMpq.Acmyyd.KJV8aTDfsLMGaQWjS,Yucatan ,ORTICO,Mérida,2024-11-06 05:34:56
+254,Laura,Rocha de la Torre,laurarocha58@gmail.com,+52 999 109 008,$2b$08$hxAHk11Nupkea4BTqahvSeMtiQOGv3CV9OWSq.PCpPTVxBnwojmq.,Yucatan,Servicios Inmobiliarios Gasquw,Merida,2024-11-07 02:52:52
+255,Tanya,Grajeda,tgrajeda@blei.com.mx,+52 55 6452 814,$2b$08$4nqejOeCdFerGfUAmNmKZek55oBzHIk0e1SR6ZTuKMtdQSEkhIx1y,Yucatan,Blei Boutique Inmobiliaria,Merida,2024-11-07 03:40:25
+256,DAVID,MEDINA,abitahmx@gmail.com,+52 1 999 780 9,$2b$08$J/uvljm8ViWyNdFMeJdU2.ua98DqVXE1J7bFWeAkdTmaUHj5HWGo.,YUCATAN,Abitah Inmobiliaria,MERIDA,2024-11-07 04:34:12
+257,LILIAN,REALPOZO SANCHEZ,hola@puntorigen.mx,+52 1 999 331 0,$2b$08$U83C68OTKSAd0NvAb2Y82OVM/s83/Z7HDhAAEjt9GjzE2o2ST4DzS,YUCATAN,Punto Origen INMOBILIARIA,MERIDA,2024-11-07 17:46:30
+258,Ulises,Martínez Gilbón,ecolivingmerida@gmail.com,5591986004,$2b$08$F4fnjMBbtmsg2paUzsxc2.4bpOyKahddqzboSSHW15z12DHSTXA6W,Yucatán,MIDTown Realty,Mérida,2024-11-07 21:19:31
+259,Maria de los Angeles,Díaz Moguel,mariangel.diaz@gmcinmobiliaria.com,+52 1 999 395 3,$2b$08$Qn65dnyNdsXucPIXJj5z6.bPXArElZ4nk2dv0KOgqDBbKZ34zNDk2,YUCATAN,Grupo Inmobiliario Gmc,MERIDA,2024-11-08 01:16:22
+260,Juan Jose,Morales Mendez,jm.grupomordez@outlook.com,9844397079,$2b$08$14PR2HHiSbcbGPHGAbI8CuEab5FfeG9SB7T04r2ARGwSgVxLkDfyW,Yucatan,AG Patrimonial,Merida,2024-11-11 14:52:31
+261,Antonio José ,González Chacón ,antonio@tucasabienesraices.mx,9999472292,$2b$08$hH6rR6psPtdnc7qDmoAaMODC4C9Lny3At.SvFaZYwAl98IYdE.bm6,Yucatan,Tu Casa Bienes Raíces SA de CV ,Mérida ,2024-12-16 22:40:45
+262,Carlos,Corzo,c.corzo@ymail.com,4427341206,$2b$08$ZPxcY11LqJyroBHo64qsA.q7JwZr2Ev/rcsVqSKvUJ3cQ.NGQSzmS,Querétaro ,Asesor Independiente,Corregidora,2025-01-09 02:03:23
+263,Jesus Antonio ,Cetina Castillo ,jesus.cetinamx@gmail.com,9994527731,$2b$08$OmfFjzGfqvm5/XoU8EApkeoa.qvduF7XUHlUUvCRUD9pW/3RH4Hv6,Yucatán ,Independiente ,Conkal,2025-01-09 18:10:31
+264,SILVIA YARELI,MEDRANO ESCOBAR,asesoria.yarelimedrano@gmail.com,9994831704,$2b$08$F2J5ZFknLR.xx95b09mANurlZoQiW.QV2oZDfw7WGmTr8ji8PoL/6,YUCATAN,BUENOS HOGARES,MÉRIDA,2025-01-14 19:18:27
+265,Irving,Burgos,contacto.kairosinmobiliaria@gmail.com,9993349878,$2b$08$Xtj5GuZXA3VHCLwocLfzEudzdRoY.aoCoz3lnGgOzUgOph5IpCXam,Yucatán,Kairos Inmobiliaria,Mérida,2025-01-15 16:38:51
+266,jesus montejo,montejo prueba,jesusjsmontejo33@gmail.com,9993347505,$2b$08$iH/t3O6I2Kwp08ZlqPSOnumpI7jT519h3FDoUmDJKOtp3wqRUJaGe,Yucatán,Avaspace,Mérida,2025-01-17 03:10:16
+267,{{7*'7'}},{{7*'7'}},{{7*'7'}}@gmail.com,{{7*'7'}},$2b$08$/hlT.EEPzvPkVj6Y.BgXouBJYu9F40KqJtQEyMW6V3OfmorMLOTeK,{{7*'7'}},{{7*'7'}},{{7*'7'}},2025-01-18 07:54:29
+268,Ana Lilia,Moreno Yepez,analiliamorenoyepez@gmail.com,998 299 7740,$2b$08$troZJPdUErEaCgJF2u/V6.RaVE/vJzb7hBOAhV8V2arVWPdL65j5W,ESTADO DE MEXICO,ANA LILIA MORENO YEPEZ,ATIZAPAN DE ZARAGOZA,2025-01-24 19:16:56
+269,Ricardo Isacc,Simental Legarda,richieemi@gmail.com,5534224452,$2b$08$DajCv2YvNaN3qR9MX0L71eswjmWsrfNvoe0R3swZ.OJRmZLty.4Xa,Cd de México,Independiente,México,2025-01-24 20:17:42
+270,Oscar,Ayuso,oscar@grupotulua.com,9991216902,$2b$08$eg1YuYy6OQNQSQ8dpsthjut8KCw73le1BOVB6LrCnYS1vNvw6MyJe,Yucatan ,Tulua Grupo Inmobiliario,Merida,2025-02-02 06:20:00
+271,Ana ,Vera,anaverabadias@gmail.com,9992330161,$2b$08$Sy8EWdKo2/05cKRxs.L6xuhr8xUpxcyvQH88oprZJmPZZXqiM30E6,Yucatán ,Independiente ,Mérida ,2025-02-10 18:46:21
+272,Verónica,Sanchez Rivas,veronicasanchez.contacto@gmail.com,9992300094,$2b$08$waMqrZuA1XZ.CNlqeYl3VO1XvNoJb2kGYI8CojSANIfkXjzO3z.sK,YUCATAN ,Independiente ,Merida ,2025-02-17 19:43:47
+273,Verónica ,Flores Gonzalez ,veronicamoctezuma50@gmail.com,55 1455 1033 ,$2b$08$j7D5Xjy.o62OrlCqv40dQOHM8hv30j/7wGGkmhXHXDyqaX8b2ypty,Cdmx,Boeta bienes raíces ,Cdmx,2025-02-28 06:50:14
+274,Maria Fernanda ,magallanes hernandez,fmagallanes@fromskyrealtors.com,9841870204,$2b$08$hV4GDINCZSqGErdIi8026.P3JwgnPPWx/wRbNyFewsZgbuqN0AuFq,quintanaroo,From sky realtors ,playa del carmen,2025-03-05 18:00:05
+275,Janet,Romero,listing.inmueble27@gmail.com,+52 990 118 287,$2b$08$xCE3pPDULlLkIy1LOm.tbeVG.N/2EPsm2tqbLrEQJUEWXgYGHSg/u,Yucatan ,Inmueble 27,Merida,2025-03-12 00:00:08
+276,Karla margarita ,Mejia chi,intown03@gmail.com,9999697781,$2b$08$hol7gbJVVCU7QIDyyUv2jubx1Isy6keHpnZjU8opk6glxNpw9.5By,Yucatan,In Town Yucatan ,Merida,2025-03-24 06:15:04
+277,Jéssica ,Rosado,jessica@avriamasterbroker.com,9992253040,$2b$08$LqcoKBngHZXtymFkPggbM.S5nB04ZHN0Jp/fzeBeUS9uXc2Eio5Lq,Yucatán,Ávria Master Broker,Mérida,2025-04-01 18:14:19
+278,Itzi,Cervantes del Toro,itzi.deltoro@gmail.com,5523421548,$2b$08$aKTi3CzGuEFOtm/C8Tut.uSUElRZs7WqI1.Zvdg088KHAKoEkhPiG,Yucatan ,Itzi Cervantes del Toro,Merida ,2025-04-03 00:06:01
+279,Maria Jose,Chan Rodríguez,rodriguezmarijo.13@gmail.com,9993099547,$2b$08$3dRRK88m2dtyWDvRxgQxXuv9j/my0Z70z.OSodSyKQ3wlrU8U5UYi,Yucatan,Maria José Chan Rodriguez,Merida ,2025-04-03 00:10:13
+280,Melissa ,Bermúdez ,Melissabermudezb@gmail.com,9992777890,$2b$08$gxccvd2xUKSYUZNa1pRa9OBRexsQKU9/PwZbzPbiFnSdUWioma7mq,Yucatán ,Homeview ,Mérida ,2025-04-03 16:50:51
+281,Alejandrina,Gamboa,Tophousemerida@gmail.com,9992389553,$2b$08$IHHAGOeWSw9hByEMhWd0uO6/hHP.6ycRgPt2pGkjYbxqzxvEMaudK,Yucatan ,Top House Merida ,Merida,2025-04-06 22:17:54
+282,Luis Eduardo,Garcia del Rio,informacion@globalrealty.com.mx,9999686732,$2b$08$GEyScuMiOsE1Mihk3x06Pu.B9TXxTGJecijARtiWJlxZghRefvUo.,Yuc.,INNOMOBI SCP,Mérida,2025-04-09 15:44:56
+283,norma alejandrina,sosa rodriguez,alexa.sosa22@gmail.com,9992007968,$2b$08$GZ/XkBZECksVrXWg.2Mp0.HnxM6Vyh2Zm8GCt3JI7IBCkWUYaZ/Fu,Yucatán,MidPropiedades ,merida,2025-04-09 17:04:01
+284,Jose Miguel,Novelo Villanueva,jmnovelo@peninsula.com.mx,9993232964,$2b$08$aDpBU/UtK9qFQEhhAiqebehB3gX5xB5KnB2irtg4XKCC.xsyGGJzG,Yucatan ,Peninsula Premium Properties,Merida,2025-04-15 23:07:53
+285,ROSARIO,TORRES,piedrablanca.realstate@gmail.com,999 140 6342,$2b$08$Y7C0Vcbqv0Jaori3Ck4HR.b2D6IgBIctJcTjmi8D1o57Fxy4AghCa,YUCATAN,PIEDRA BLANCA,MERIDA,2025-04-23 04:36:45
+286,ANAMARIA,TORRES,asesorinmobiliario.atc@gmail.com,5537305209,$2b$08$Q7zEkarAhRgszlOYVJ7hWeZU14hGeMZeMNMi05zbSaAQC4MOAw9ja,YUCATAN,INDEPENDIENTE,MERIDA,2025-04-25 00:41:08
+287,Raul ,Cardeña Méndez,raul_nouvo@hotmail.com,9991551721,$2b$08$.jCCYx0.vFo8yeiZgNCgy.YxXnxXdrq77EaOdsVUlVkyGLhJejxxa,Yucatán ,R&B,Merida,2025-04-28 20:35:17
+288,Sarai,Gamboa,saraivg_20@hotmail.com,9993317435,$2b$08$TYQ6MlvihEp0aCHh5or9JePp3OfDimEhJ6yol63Ozv9zNh/V55Ehi,Yucatan,Independiente,Merida,2025-04-29 03:04:33
+289,Rebeca,Regalado Alvarez,contacto@rebecaregalado.com,9991933270,$2b$08$K.ilq5RkARZFPFWnDq43QuD6GMDBORpX2lsGtTkRjpIp1al/Cbf1e,Yucatan,REBECA REGALADO,Mérida,2025-05-06 20:56:19
+290,Kislev Sinai ,Cuevas Hernández,contacto@kiimakrealty.com,9991902010,$2b$08$CJFF4kQJzuH1LYQD.zhHQ.iBk4rEKlfR59KvKImDbchF/5LqF2jZ6,YUCATAN,KIIMAK REALTY,MERIDA,2025-05-08 14:51:38
+291,leislimar,allen,leislimarallenm@gmail.com,9991571177,$2b$08$FCLAEG7UoSdyWjp4hPCb4.vN34SS4nR9f6UemIQ3hcZMLaCIomHBG,Yucatán,casa inmobiliaria ,merida,2025-05-15 16:42:24
+292,CESAR ORLANDO,VERA CORTÉS,cesar.veco@gmail.com,9992175738,$2b$08$kWBR2fOaX1o1vqhCQ3Wokuw8405QY.WRDhM07pxT0iHEs5YzNDr2m,YUCATÁN,CYMA Real Estate,Mérida,2025-05-21 18:28:05
+293,Addy ,Marrufo,anturin@hotmail.com,9999693399,$2b$08$wKkooc0dmJbLEKsTfMJGS.iV8ZHHSK29wrooq7lwh6XQPxcmKh1TK,Yucatán ,Marrufo Bienes Raices,Merida,2025-05-27 16:29:40
+294,Addy,Marrufo,contacto.marrufobr@gmail.com,9999693399,$2b$08$dHeq7DsdqNHdpj/PeElO0OIDPL.MUHyPRNx/U4AUWL9flSPvDdBR6,Yucatán ,Marrufo Bienes Raices,Mérida ,2025-05-27 16:32:35
+295,Paola,Trigos Perdomo ,silviapaolatrigos@gmail.com,9999960191,$2b$08$RO6L5gXFRT6qVGrssTOGm.rmeEoh3lZrgFFOnIk3C/ukDO6K5RcXi,Yucatán ,Kavana,Mérida ,2025-05-27 17:41:01
+296,Sinai,Mena,sinaimena.95@gmail.com,9992798128,$2b$08$Lx2..X4urlI2OCuVv1G6MeDA1gcCuxxKtgS.Q2OfQG5qztTMyKqzm,Yucatán ,Kavana ,Mérida,2025-05-27 17:44:21
+297,Mariana ,Ruiz García ,ruga32@hotmail.com,9902189143,$2b$08$NeJUwtDn38.bZt4kEkOakOco9EBlq4j./2u9AGaKyJj9RbfIAJpm6,Yucatán ,Kavana ,Mérida ,2025-05-27 17:47:44
+298,Matilde,Lara Corona,licmatildelara@gmail.com,5528585512,$2b$08$.Amakm20QXv39AQvnToTwurdgkzN//J0IptfBPz1OnajBTQ30Hkpe,CDMX,Inmobiliaria Asesoria SweetHome,CDMX,2025-05-28 00:05:44
+299,Mariana,Aznar,aznar.mariana@gmail.com,9993096248,$2b$08$a25SRRr/BdbYpvOjzvYzAuLKLH9z/B5Lb0WopOqFDH9dBZK2AHvtO,Yucatán,CYMA Real Estate,Mérida,2025-06-02 19:03:38
+300,Yani,Tello,yanitello8@gmail.com,9999472020,$2b$08$JqkCoM2s7eU90zKoSoib/eaU1oKAedAAEOy4MHQ0M6LVwl8HYRIei,YUCATAN,YANI TELLO,MERIDA,2025-06-03 21:50:04
+301,Nuri ,Lizárraga ,nuri.lizarraga@remax-mid.com.mx,9991813709,$2b$08$Xa8TRl4kVwB0UrxPt6ZavOc96hCFzJcnH6rWEXcnBqTikXtizIJBq,Yucatan,Remax MID,Merida,2025-06-04 18:50:56
+302,Alejandro,Briceño,ebriceno.alejandro@gmail.com,9903410312,$2b$08$rCq2ZTOL1a0xOlPJSkiwjOCVTxrMr3UzVvrHL0jtUtbk2rfAFW9.a,Yucatán ,Alex Briceño,Mérida,2025-06-04 19:27:00
+303,ERICK,RODRIGUEZ,erickjesusrodriguezaguilar@gmail.com,9971424964,$2b$08$V/qJCt4TqKd5gbL3Cw2zLOkEBt194N5TodOaxbBdMCAYpOQ1CPA1y,YU,dadodesarrollos,34a #480  x 53 y 55 WASPA,2025-06-04 23:07:10
+304,Rudy César ,Pérez Ferrera ,cesarpefe@hotmail.com,9991782148,$2b$08$ENFPXLnqy78Pf9n4DRNE8eLrIZBIXUHmEYDkCcaFA11dm0Ae06OTK,Yuc.,Independiente,Mérida,2025-06-10 21:52:07
+305,Angie ,Pereyra,angiepereyra2407@gmail.com,9991355194,$2b$08$xCw89W4TLfjx2cLUTybfge6sqyYOPg9cyLqz5j/hzbsvFdvz5pkfK,Yucatán ,Independiente ,Mérida ,2025-06-11 17:17:36
+306,Reyna ,Bejarano ,reynabejaranorealtor@gmail.com,9991391659,$2b$08$/VvFV83jIdYHKTTtT32VjOTZCXxSkvS8hrpRcozjWTi4iI677P6ZO,Yucatan,Nubak,Merida,2025-06-12 04:56:36
+307,Melva ,Garcia León ,melva.bienes@gmail.com,9991438689,$2b$08$rxR4YHpMzmkaZKTqrr8IjOjBlV4DSQ6vAy5DKlfdnJ3.AD.vVxiRe,Mérida ,ELYON MID,Yucatán ,2025-06-19 22:45:36
+308,Juan Antonio ,Sarao de la Cruz ,saraoindustrias@gmail.com,9361274718,$2b$08$vBIEMkS6DYo7luqSMJQjPub5.vyQr8NBT3oeOX4fFjB7EeBYbZch.,Yucatán ,Asesor independiente ,Mérida ,2025-06-19 23:05:54
+309,Victor,Canto,victorcanto80291@hotmail.com,9992696696,$2b$08$QU0oBQ4dLqDqJEIxIF8.UOW/PQ8v9uoDfaHkHY4ln7hznoW.qnOL2,Yuc.,Yucatán Mid Homes,Mérida,2025-06-20 18:49:44
+310,León,García,arq.lae.leongarcia@gmail.com,9995076911,$2b$08$X5UT4H4kIXfGZrqvwp9Tve8PuqBdUEtgSumiNrogr0yqamIcFylBG,Querétaro,Arq. León García,Querétaro,2025-06-21 17:25:50
+311,Laura,Puerto ,laurapuerto.asesora@gmail.com,9994869222,$2b$08$lHt74Obbz1m4ewW4DU0Al.zGj7fEOGsEY0beElNItYniuVXWyWxf6,Yucatan,NALUA Real Estate,Merida,2025-06-21 23:45:20
+312,Brenda,Medina Porras,contacto@brendamedinaporras.com,2223690989,$2b$08$TUs93KkgTTAZ732hIN1zEOzoje1AcBijeT6BBrxMZZzmp.l9O4Faa,Puebla,Brenda Medina ,Puebla,2025-06-22 21:56:15
+313,Jose Alberto,Güemes Barbosa,gsbienesraicesmid@gmail.com,9995708833,$2b$08$mk3hl4oVy98PDVY8YytvN.tYIXg2YzkMg6gxo0LkjgBTq3DGUz4J.,Yucatan,GS Bienes Raices,Merida,2025-06-23 23:24:05
+314,Oscar,Ayuso,oscar@grupotulua.con,9991216902,$2b$08$84fg5kr49K0KCqIApQv2VeQQNfoKxaHQT4g9W7gnGFfQ2h8Wv.NCy,Yucatan,Tulua Grupo Inmobiliario,Mérida ,2025-06-23 23:39:38
+315,Jorge,Moguel,bradaventas@gmail.com,9999913000,$2b$08$wm577gpD89UuvyhUQD2zZOPFrw1Sw66WHUfHdkzOV7B96pHf5QpFy,Yucatán ,Bradamo Bienes Raíces ,Mérida ,2025-06-24 00:59:29
+316,Iliana,Zapata,grupocorzap@gmail.com,9992243170,$2b$08$Kz0TjxkUufkQ8t42toD26uxLPF.fp3mjsOMngmBiIUE6R2GUgxFIe,Yucatán ,Grupo CorZap,Mérida ,2025-06-24 01:47:31
+317,Laura,Pérez Lorenzo,lauralorenzo@yahoo.com,9991593681,$2b$08$y27/ZGK4y41pdew0Dz5QTuS4BeVUMRuDkLtdPoQAEWDrpV7pNQKzS,Yucatan,Independiente,Merida,2025-06-24 19:37:07
+318,Bianca  Inés ,Tecuapetla Zavala ,bitz0419@hotmail.com,5591654425,$2b$08$yGWUK3Cu8x6ZpPRq38QHc.6j8qAUXhVw.M04GsV6leLkyS1H8FOmu,Yucatán ,Independientemente ,Merida,2025-06-27 00:19:48
+319,Gil ,Romo,gil.romo.vargas@gmail.com,4776701434,$2b$08$LmdV1zKt6SINe32riWmLpuk.Cqv5d87bdvNbl90klQIuv2STKSGUW,Yucatán ,GR Bienes Raíces ,Mérida ,2025-06-30 05:33:44
+320,Doris,Urtusuáztegui,dorisgonzalez.vivarea@gmail.com,9993212258,$2b$08$Ge/s6SYpErDqoIFy49cvI.9w/qHadohoQOsjTr7yjnoMHsatJ3A9K,Yucatán,Vivárea Consultoría Inmobiliaria,Mérida,2025-07-01 17:17:36
+321,Julio Cesar de Jesus,Ramírez Ruiz ,enfoque.re@gmail.com,8111737224,$2b$08$hD4LmqPit/nbT.yAqqzwYesw9FcpzNC4pGDsJg5rrXOM4u7kmT4Gm,Nuevo León ,Independiente ,Apodaca ,2025-07-01 18:23:53
+322,Margarita,Rodriguez,margarita@nicehome.mx,9997001921,$2b$08$Ut.J3amIGAoojYC42ll4su43WRCvypjIZfagykMC5xjZlUfZOWRai,Yucatan,Nicehome ,Merida,2025-07-07 23:10:22
+323,Enrique ,Mejía ,emejiag.naltabrisa@gmail.com,9991637642,$2b$08$OYWxDSOywt3/7CWCbNifyOSJdpcunKD7fvu9RU2fxQh1YyEflsK4y,Yucatán ,Corporativo Roard ,Mérida ,2025-07-21 02:30:31
+324,María Isabel ,Hernández Ambriz ,info.homelandmx@gmail.com,9992082495,$2b$08$oSe1E0LvP6WNkZfXMggxFutaS28mvZ8R/u7A1heoC6r.R0HaxHAfu,Yucatan ,Homeland ,Merida,2025-07-24 03:29:42
+325,Nayeli,Montañez BARRAZA,nmbinmobiliaria0@gmail.com,9993254513,$2b$08$Tn8lzDLSYw/MFUfYaeTfLehDtzo0oRM1NXuphQB.1un1A.ZKeiITe,Yucatan,NMN,Merida yucatan,2025-07-25 20:57:31
+326,Carolina,Cortes ,carocctuasesora@gmail.com,9993291995,$2b$08$lje6ZnesGaqjvj6iQr4YTubufmuqJZgrV50Q/1MfhECuw05kbSW7e,Yucatán ,Cardigo ,Mérida ,2025-08-01 17:40:04
+327,Alexis graciela,Arceo,groupgaac@gmail.com,9904001773,$2b$08$GRqlcwcDzX2wOKrDpmqg2OhEWzUa/Ng9x81/RVZMfFGzL7GEYIGxG,Yucatán ,Alexis arceo,Merida,2025-08-06 21:43:16
+328,José Armando,Moreno Hernández ,armando.moreno@impulsoinmobiliario.com.mx,5652074597,$2b$08$3iCBYtMRXU/uDc68INDRguAxh2HDwmNbr5xGAY052b..51pSvRhe.,Yucatán,Impulso Inmobiliario ,Mérida ,2025-08-08 18:34:01
+329,Verónica Noemi ,Anduze Suaste ,vero.anduze@gmail.com,9992704100,$2b$08$otAnL3Chl1r24kFkRGipmelswj3IrLxQTcamk1IrB4TrRtHdZ4F06,Yucatán ,Asesora Independiente ,Mérida ,2025-08-16 00:54:47
+330,Elisa ,Ayuso,elisaayuso.realtor@gmail.com,9999041121,$2b$08$amlgAsDc6aSXY3QVNifsGOUukWtus5uyofyUwa/ZI5GNcwcTvHgtG,Yucatan,Independiente,Merida,2025-08-21 19:13:03
+331,Roger Oswaldo ,Matu Moreno ,rogermatumorenp@gmail.com,9993180872,$2b$08$4EnuR/F1LUPz5AzFIjK5XuH75e8XhyCtln9nwROCt9R9GZz4z7NHm,Yucatán ,Independiente ,Mérida ,2025-08-22 17:48:22
+332,José Gustavo ,Torres Peniche ,gustavo_torres_p@hotmail.com,9993639868,$2b$08$aA8mR2uEPoEJsGDn9pjc.ebZk5n3gVQ4n1dL6cjD8QyIROiidSl9S,Yucatán ,GT Representaciones ,Mérida ,2025-08-26 18:26:41
+333,Fernando ,Rojas ,rojas_015@hotmail.com,9995753328,$2b$08$3LTZyR6vRTJDU9n0X/l8reL9wScEU2iKwLLz0Og5hJdRk784eyOaq,Yucatan ,Rojas bienes raíces ,Merida,2025-09-02 14:13:41
+334,Maité ,Urdiales Araujo,maiteurdialesaraujo@gmail.com,9903746521,$2b$08$.p5RKwyfseKVRmpnfYyEY.PgSR8YBZ/te2AuaGkKMzdPF9Jep347q,Yucatán,Independiente,Mérida,2025-09-12 18:57:21
+335,Frank,Rios,contacto@equipoukiyo.com,9994428730,$2b$08$TnKHEjn6aQgp44oSDs5Yoes0dXnXHzOUh/kvo0DpKV15sKJzW1/d6,Yucatan,Equipo Ukiyo,Merida,2025-09-13 00:09:13
+336,OSCAR,ORTIZ,oscar.side2@gmail.com,9991108049,$2b$08$Y1pCgrGGLwO6iRJlnelPmuzRHD23cTe7AGMksnCF9aZGpDDm1eX6W,MERIDA,Oscar Iván Martínez Ortiz,Mérida,2025-09-15 18:20:39
+337,Marga,Sandoval,margans@iadmexico.mx,9995127219,$2b$08$T96trcVT8YYv/t0e7sq7f.JkhiNFBkRz9VW./YIPTVwmjCLTHF74u,Yucatán,iad Inmobiliaria,Mérida,2025-09-15 21:38:42
+338,Erika,Rosales,erikarosalesrealtor@gmail.com,9999001114,$2b$08$/FpwoLky2hT8Zw1O/A/mde/PkMXgH3pFaE4XM5AiPuiKVXla5oF5m,yucatan,independiente,merida,2025-09-16 18:40:08
+339,Luis ,Ordonez,youcatanmx@gmail.com,9993930298,$2b$08$3fMGN4tR.s6SgRPleJYbmuXrOnfWpvUwIm.jlcTrxR7jRPxVE6Uv.,Yucatan,YouCATAN BR,Merida,2025-09-16 19:39:12
+340,Alejandra Rafaela,Cruz Godinez,alejandrarcg@hotmail.com,9993633135,$2b$08$zL.HwwRjwb9qSrszYqz3N..amizspMGSz5vl8/lB9nS1P6glx5wdy,Yuvatan,Personal,Merida,2025-09-17 17:49:30
+341,Alejandro,Isaak,alexkarimisaac@gmail.com,9993387930,$2b$08$bpcVB6fSlzBq45H6JP5sleg/Kbdk36zScOBa9U5OwRNCXZTsghaYS,Yucatan,ISKBR,Merida,2025-09-17 19:40:38
+342,Blanca Patricia ,Contreras,Blancapatriciacontreras2@gmail.com,Blankis.85@hotm,$2b$08$Q7TKbNlHu9reRjRQoqgB6un7up3WCCTBSaxvYAs806JJuvA7YWb9i,Yuc.,Independiente ,Merida,2025-09-17 20:08:09
+343,Verónica Inahir ,Graniel García ,verygraniel@gmail.com,9991850922,$2b$08$Ymf9B7e6O.ld.hQZZyuhzuo9lTdiTAqqO9WsaaEatPvuox5EM.Nxu,Yucatán ,ASESOR INDEPENDIENTE ,Mérida ,2025-09-19 17:29:18
+344,Luisa ,Durán ,duranrebollledo@gmail.com,9997000429,$2b$08$j4HsecSpYOl1HJ2dkMJRHuyjy2i7YhdVXXxPKiQoByyQ4stXkq3S2,Yucatán ,Simplemente Mérida ,Merida ,2025-09-19 21:26:25
+345,Jesus ,Perdomo,jesusestaros0108@gmail.com,9993027768,$2b$08$MUYDO4IPRKc5hWUv0EuLFOObE/H1NUG.fTPIzMxzQwTyp.NPip.ES,Yucatán ,Estaros Grupo ,Mérida ,2025-09-22 00:02:45
+346,Maria Elisa,Mata,eliza@remaxtanlah.com,9381299386,$2b$08$.iadQCdDdU3w1f6MxoFT9O4TwcWjbTExZga3OeDNLX5x35DQJUNPa,Yucatan,Remax tanlah,Merida,2025-09-25 01:09:43
+347,MARISOL,RAMON FLORES,mariramonf@hotmail.com,9993516729,$2b$08$EGbEAP9KbzguaS4TuFPQkuh7npnmzRVQCKZLDXN0j11swW2WXi12m,YUCATAN,RAFM710825LG9,MERIDA,2025-09-25 18:07:13
+348,Estiver Adrian ,Cen,estivercen21@gmail.com,9995921168,$2b$08$MM/ZJN4b2mIngLqFCAt40eeDmwpjOHgjzIcfmhPmU9rjbiixbVekG,Yucatan ,Cen lum,Progreso,2025-09-25 20:32:05
+349,Dulce,Avelar,dulce-avelar@hotmail.com,9993818407,$2b$08$exjfwnkPMbcCrz070e8qbucjyjQ0TvIxSN9Dp6zaGWY6HKAc/NMhy,Yucatán,Dulce Avelar,Mérida,2025-09-25 21:57:06
+350,Martin ,Montero,sayilinmobiliaria@gmail.com,9997463202,$2b$08$Vs7OqTre3bfpOBMVu5QtVeZTejvFAZSH3o1uTia1cAluLWNWhRxcC,Yucatan,Sayil Inmobiliaria ,Merida,2025-09-25 23:50:39
+351,Carlos Fernando ,Medellin ,contacto@ruiztoinmobiliaria.com,9996056397,$2b$08$bq/yaTnPElpb8kRGHFbXDO30Ep.EGyqOcbVoAEPGDFmwsUlcpTb/q,Yuc.,RuizTo Inmobiliaria,mérida,2025-09-26 02:03:57
+352,Suemy Noemi,Jiménez Boldo,suemy.2808@gmail.com,9993682343,$2b$08$4Tqzmyxo5GE2nOGb8W2SdeIzgH8saLsHgXurA07pv17B.mg5PKmQ6,Yucatán,Cliente Clave,MERIDA,2025-09-29 17:21:49
+353,Pablo,Veta,hola@inmobiliariaveta.com,6642321490,$2b$08$/emwMMTw93UjnNJIkTRDw.SvS9CoYs5BNQBts86QVHqySUz7lAzzO,Baja California,Inmobiliaria Veta,Tijuana,2025-09-29 23:47:52
+354,ERICKA ,CHARLES,erickacharles.nuevequince@gmail.com,9993617462,$2b$08$uZppZBOgg1YEiTig62RxU.U8H66fb5lxUtkf8Wm82IrgRTCQWSNy6,Yucatán,Inmobiliaria Nuevquince,Mérida,2025-09-30 19:19:22
+355,Karen,Tamer,aglhem_tamer@hotmail.com,9841052086,$2b$08$bWYQu6ZR0pBOuIpvfkJKa.V5EEhR/Fgszd/W2p51n8JPM3serZzOK,Quintana Roo,Na,Playa Del Carmen ,2025-10-02 22:47:04
+356,Lillian ,Cano Orlayneta,lilliancanoo@hotmail.com,9383860535,$2b$08$JZkAhXsO.rzLSsvFWnsnTOJl3E16Umt7RL69huB3YxLpTHxESoYaO,Campeche,LLA Real Estate,Carmen ,2025-10-03 03:30:45
+357,Luis Enrique ,Lozano lara ,Enriquelozano4444@gmail.com,999 2758667 ,$2b$08$IJNwOmwBj8Br3pNzmrctOe8qKoOoM2YA2lblYl7scA341sslnb/Rm,Yucatán ,Mayan Dreams ,Merida ,2025-10-03 03:44:12
+358,Gloria Marcela ,Milla ,loteunoyucatan@gmail.com,9844700328 ,$2b$08$u4SwA3rLYiWDyotAqshCCOOvx39q5/HqIXDqQ6KccuitXLUWmJLJW,Yucatán ,Loteunoyucatan,Mérida ,2025-10-03 13:54:18
+359,Patricia ,Vazquez ,paty.vazh13@gmail.com,9994869349,$2b$08$96Re/ddIVSVt1ZvdDW5bGO1gN.YQtqy7WVdkymInvR8ee0pTgaLru,Yucatán ,Independiente Inmobiliaria iLUUMina ,Mérida ,2025-10-04 17:52:02
+360,Paola,Amador sanchez,hogarentobienesraices@gmail.com,9996490447,$2b$08$qnzVFzvpQlHp2wcPH4PwiuaBg02Ukb574.DNp/Ti2rptSgXo0SpiW,Yucatan,Hogarento,Merida,2025-10-04 21:02:06
+361,Roxana ,Rejon,roxrs@hotmail.com,999 2065804 ,$2b$08$28uahsHLyw8FrwRV7bWenu33R2hZiWeO81R/7WHvvmppABxRQVeoK,Yucatan,Abdteo,Merida ,2025-10-05 19:17:09
+362,Rosa María ,Pacheco Rosales,pachecorosalesro@gmail.com,9994750300,$2b$08$hDuY4gUq6ObilgPL4BoafucMaZJXPsetaN2Z3cGpMT/Ie/sIDZH6C,Yucatán ,Rous Pach,Mérida ,2025-10-05 21:10:35
+363,Arturo,Perez,arturoperezgcm@gmail.com,9993275505,$2b$08$p/YhwP.T9658Y/pHm3.NveknkT0wBiLQTTnHYX.2wtSbWUc1xqgvi,Yucatán,Arturo Perez,Mérida,2025-10-08 15:23:08
+364,Carlos manuel,Macosay torres,macosaycarlos99@gmail.com,01 999 297 7700,$2b$08$y5PyPlqwTlok.lOeDcoE1OQHf31un18QH3K.yWn6bROrjN6EPbxV2,Yucatan,Homesnetyucatan,Merida,2025-10-10 23:03:50
+365,zureyma,Cruz,asesor.zureymacruz@gmail.com,9992770525,$2b$08$qySs9LixQ5IKREA/jqGB3uu5Q7Tt0oRC7igi0/3aM0chC97nLGQk6,Merida,Averainvestmen,Yucatan,2025-10-11 18:37:25
+366,Luis ,Talango ,altaca2017@hotmail.com,9848064447,$2b$08$pYMkhn9npVwnBZ7lRif.B.lOatwgDuJ4LKF2xRCpz4N7YzWerm3fC,Yucatan,Luis talango ,Merida ,2025-10-13 15:35:13
+367,Carlos ,Guzmán,cguzman@hhgbrokers.com.mx,9992789487,$2b$08$au9OEfR27FCHTcceJltAC.oUtnjJmMUJxeyNwY3BxxkdaUfEpHwLy,Yucatán,HHGBROKERS,Mérida,2025-10-13 22:36:41
+368,Roxana,Hernandez Cuevas ,roxanahernandez@grupo4i.com,9999086032,$2b$08$LqiinGWK4dcIfq9IflpscOOFdNiP22rZ9Le3MhCrUbKDMVtW2tRDa,Yucatan,Grupo 4i,Merida ,2025-10-14 00:26:46
+369,Verónica,Craules Ortega,verocraulesinmobiliaria@gmail.com,5566942915,$2b$08$YoJQSyN4TP24RjRGeHHjou2sOJtp1Nl1xP/76jK7zFdiGelArYMcW,Yucatán ,Verónica Craules ,Mérida ,2025-10-16 20:41:07
+370,Antonio ,Càmara,acanarab1@gmail.com,9994427744,$2b$08$KBzfAwovcOX3guNgdN9.VObgp7jx7vkc4VzLIWlaEO9NF/sg6JT.G,Yucatán ,Càmara Bienes Raíces ,Mérida ,2025-11-05 01:09:46
+371,Jessica,Gálvez Valverde,jessica@reb.com.mx,8119992690,$2b$08$.zec70N3fq/CVPaiJc8AqutYSEJXCD8IWgkR4bZpqPSDThRfAmU4m,Nuevo León,RE Brokers,Monterrey,2025-11-06 20:35:12
+372,Karen,Tamer,aghlem_tamer@hotmail.com,9841052086,$2b$08$vHf6f8pqlB/NtTUu69CxO.ZVhV7oN/9f7FxAGphSfDa/5VPyZMkV2,Quintana Roo,Independiente ,Playa Del Carmen ,2025-11-08 01:26:44

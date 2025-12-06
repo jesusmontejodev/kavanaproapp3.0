@@ -1,0 +1,64 @@
+# Laravel
+/vendor
+/node_modules
+/.idea
+/.vscode
+
+# Environment
+.env
+.env.production
+.env.local
+.env.example
+
+# Logs
+/storage/logs/*.log
+*.log
+
+# Cache
+/bootstrap/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Assets
+/public/hot
+/public/storage
+/public/build
+
+/public/mediaproyectos
+/public/perfil
+/public/proyectos
+
+
+# Packages
+/public/vendor
+/public/mix-manifest.json
+
+# Testing
+/coverage
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archivos binarios grandes
+*.node
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Backup files
+*.bak
+*.backup
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Laravel specific
+server.php
+_ide_helper.php
+.phpstorm.meta.php
