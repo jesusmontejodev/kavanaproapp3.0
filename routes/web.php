@@ -93,6 +93,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('paginasusuario', PaginaUsuarioController::class);
     Route::resource('embudos', EmbudoController::class);
 
+    Route::resource('solicitudcliente', SolicitudClienteController::class);
 
 });
 
@@ -116,7 +117,7 @@ Route::middleware(['auth', 'role:administrador'])->group(function () {
     Route::resource('adminetapas', AdminEtapaController::class);
     Route::resource('linkproyecto', LinkProyectoController::class);
     Route::resource('adminmediaproyectos', MediaProyectoController::class);
-    Route::resource('solicitudcliente', SolicitudClienteController::class);
+
 
     // GESTIÓN DE TAREAS
     Route::resource('grupotareas', GrupoTareaController::class);
