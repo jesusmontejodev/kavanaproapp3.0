@@ -90,7 +90,9 @@ Route::middleware('auth')->group(function () {
     Route::resource('misclientes', MisClientesController::class);
     Route::resource('proyectos', ProyectoUsuarioController::class);
 
-    Route::resource('paginasusuario', PaginaUsuarioController::class);;
+    Route::resource('paginasusuario', PaginaUsuarioController::class);
+    Route::resource('embudos', EmbudoController::class);
+
 
 });
 
@@ -119,8 +121,6 @@ Route::middleware(['auth', 'role:administrador'])->group(function () {
     // GESTIÓN DE TAREAS
     Route::resource('grupotareas', GrupoTareaController::class);
     Route::resource('tareas', TareaController::class);
-    Route::resource('embudos', EmbudoController::class);
-
     // Rutas específicas de admin
     Route::post('/solicitud-cliente', [SolicitudClienteController::class, 'store'])->name('solicitudcliente.store');
     Route::post('/solicitudes-clientes/{id}/aprobar', [AdminLeadToClienteController::class, 'aprobarSolicitud'])->name('adminleadtocliente.aprobar');

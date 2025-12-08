@@ -203,13 +203,85 @@
                 </svg>
                 <h3 class="text-2xl font-semibold text-gray-700 mb-3">No hay leads aún</h3>
                 <p class="text-gray-500 mb-6">Comienza agregando leads a tus proyectos para hacer seguimiento</p>
-                <a href="{{ route('leads.create') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-lg hover:from-green-700 hover:to-green-800 transition-all duration-300 font-medium shadow-sm hover:shadow">
-                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                    </svg>
-                    Agregar primer lead
-                </a>
             </div>
         @endif
     </div>
+
+    {{-- Formulario crear lead --}}
+    <div class="mt-8 bg-white p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold mb-4">Crear Nuevo Lead</h2>
+        <form id="lead-form">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre *</label>
+                    <input type="text" name="nombre" id="nombre" required
+                        class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                </div>
+
+                <div>
+                    <label for="correo" class="block text-sm font-medium text-gray-700">Correo *</label>
+                    <input type="email" name="correo" id="correo" required
+                        class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                </div>
+
+                <div>
+                    <label for="numero_telefono" class="block text-sm font-medium text-gray-700">Teléfono *</label>
+                    <input type="text" name="numero_telefono" id="numero_telefono" required
+                        class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                </div>
+
+                <div>
+                    <label for="fecha_creado" class="block text-sm font-medium text-gray-700">Fecha *</label>
+                    <input type="date" name="fecha_creado" id="fecha_creado" required
+                        class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2"
+                        value="{{ now()->format('Y-m-d') }}">
+                </div>
+
+            </div>
+
+            <div class="mt-4">
+                <button type="submit"
+                        class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
+                    Crear Lead
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Manejar envío del formulario (actualizado para agregar visualmente)
+        document.getElementById('lead-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const formData = {
+                nombre: document.getElementById('nombre').value,
+                correo: document.getElementById('correo').value,
+                numero_telefono: document.getElementById('numero_telefono').value,
+                fecha_creado: document.getElementById('fecha_creado').value,
+            };
+
+            fetch('/api/leads', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${TOKEN}`
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+
+                mostrarNotificacion('Lead creado exitosamente!', 'success');
+                this.reset();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                mostrarNotificacion('Error al crear lead', 'error');
+            });
+        });
+
+    </script>
+
 </x-app-layout>

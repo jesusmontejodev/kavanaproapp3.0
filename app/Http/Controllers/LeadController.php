@@ -50,25 +50,27 @@ class LeadController extends Controller
             'nombre' => 'required|string|max:255',
             'correo' => 'required|email',
             'numero_telefono' => 'nullable|string',
-            'id_etapa' => 'required|exists:etapas,id',
+            'id_etapa' => 'nullable|exists:etapas,id',
             'nombre_proyecto' => 'nullable|string|max:255',
         ]);
 
+        // Esto es perfectamente válido
+        $id_etapa = $request->id_etapa ?? null;
+
         Lead::create([
             'id_user' => Auth::id(),
-            'id_etapa' => $request->id_etapa,
+            'id_etapa' => $id_etapa, // Será null si no se envió
             'nombre' => $request->nombre,
             'correo' => $request->correo,
             'numero_telefono' => $request->numero_telefono,
             'fecha_creado' => now(),
             'nombre_proyecto' => $request->nombre_proyecto,
-            'orden' => 0, // Puedes ajustar esto según tu lógica
+            'orden' => 0,
         ]);
 
         return redirect()->route('leads.index')
             ->with('success', 'Lead creado exitosamente');
     }
-
     // Método para mostrar un lead específico
     public function show(Lead $lead)
     {
