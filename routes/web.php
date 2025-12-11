@@ -21,6 +21,8 @@ use App\Http\Controllers\ProyectoUsuarioController;
 use App\Http\Controllers\PaginaPublicasController;
 use App\Http\Controllers\AdminUsuariosCrudController;
 use App\Http\Controllers\PaginaUsuarioController;
+use App\Http\Controllers\ClienteArchivoController;
+
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -185,6 +187,54 @@ Route::middleware(['auth', 'role:administrador'])->group(function () {
         // Route::delete('/{id}', [AdminUsuariosCrudController::class, 'destroy'])->name('destroy');
     });
 });
+
+
+
+
+
+// PENDIENTE POR AGREGAR routes/web.php o routes/api.php
+Route::middleware(['auth'])->group(function () {
+
+    // Rutas específicas por cliente
+    Route::prefix('clientes/{cliente}/archivos')->name('cliente.archivos.')->group(function () {
+
+        // Subir archivo (POST)
+        Route::post('/', [ClienteArchivoController::class, 'store'])
+            ->name('store');
+
+        // Listar archivos del cliente (GET)
+        Route::get('/', [ClienteArchivoController::class, 'index'])
+            ->name('index');
+    });
+
+    // Rutas por hash del archivo
+    Route::prefix('archivos')->name('cliente.archivos.')->group(function () {
+
+        // Ver información del archivo (GET)
+        Route::get('/{hash}', [ClienteArchivoController::class, 'show'])
+            ->name('show');
+
+        // Actualizar archivo (PUT/PATCH)
+        Route::put('/{hash}', [ClienteArchivoController::class, 'update'])
+            ->name('update');
+        Route::patch('/{hash}', [ClienteArchivoController::class, 'update']);
+
+        // Servir archivo para visualización (GET)
+        Route::get('/{hash}/servir', [ClienteArchivoController::class, 'servir'])
+            ->name('servir');
+
+        // Descargar archivo (GET)
+        Route::get('/{hash}/descargar', [ClienteArchivoController::class, 'descargar'])
+            ->name('descargar');
+
+        // Eliminar archivo (DELETE)
+        Route::delete('/{hash}', [ClienteArchivoController::class, 'destroy'])
+            ->name('destroy');
+    });
+});
+
+
+
 
 // Ruta del welcome original de Laravel (opcional)
 Route::get('/welcome-original', function () {

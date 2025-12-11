@@ -21,9 +21,6 @@
                 <div class="cliente-card">
                     <div class="cliente-header">
                         <h4 class="cliente-name">{{ $cliente->nombre_completo }}</h4>
-                        <span class="cliente-badge estado-{{ $cliente->estado_entrega ?? 'cliente' }}">
-                            {{ $cliente->estado_entrega_texto ?? 'Cliente' }}
-                        </span>
                     </div>
 
                     <div class="cliente-info">
@@ -59,6 +56,13 @@
                                 Entrega estimada: {{ $cliente->fecha_entrega_estimada->format('d/m/Y') }}
                             </span>
                         @endif
+
+                        <a href="{{ route('misclientes.show', $cliente->id) }}"
+                        class="inline-flex items-center px-4 py-2 border border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200">
+                            <i class="fas fa-user-circle mr-2"></i>
+                            Ver Cliente
+                        </a>
+
                     </div>
                 </div>
                 @endforeach

@@ -35,6 +35,7 @@ class Cliente extends Model
         'fecha_entrega_estimada' => 'date',
         'fecha_entrega_real' => 'date',
         'proximo_seguimiento' => 'date',
+        'ultimo_seguimiento' => 'datetime', // <-- Agrega esta línea
     ];
 
     public function user()
