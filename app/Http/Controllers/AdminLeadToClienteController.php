@@ -54,11 +54,12 @@ class AdminLeadToClienteController extends Controller
             'direccion_inmueble' => $request->direccion_inmueble,
             'tipo_inmueble' => $request->tipo_inmueble,
             'estado_entrega' => 'contrato_firmado',
-            'fecha_compra' => now(),
+            'fecha_compra' => now()->format('Y-m-d'), // Asegurar formato date
             'fecha_entrega_estimada' => $request->fecha_entrega_estimada,
+            // Cambiar esto a texto plano o usar datetime si cambiaste la migración
             'ultimo_seguimiento' => 'Cliente creado a partir de lead aprobado. ' . $solicitud->descripcion_solicitud,
-            'proximo_seguimiento' => now()->addDays(7),
-            'observaciones_entrega' => $request->comentario_admin,
+            'proximo_seguimiento' => now()->addDays(7)->format('Y-m-d'), // Asegurar formato date
+            'observaciones_entrega' => $request->comentario_admin ?? '',
         ]);
 
         // Actualizar la solicitud

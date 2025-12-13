@@ -33,12 +33,13 @@ class MisClientesController extends Controller
     {
         $userId = Auth::id();
 
-        // Solo obtener el cliente básico, sin procesar fechas
-        $cliente = Cliente::where('id_user', $userId)
-            ->where('id', $id)
-            ->firstOrFail();
+        // Cargar cliente con sus archivos paginados
+        $cliente = Cliente::with(['archivos' => function($query) {
+            $query->latest(); // Ordenar por fecha descendente
+        }])->where('id_user', $userId)
+        ->where('id', $id)
+        ->firstOrFail();
 
-        // No procesar fechas, solo pasar los datos crudos
         return view('misclientes.show', compact('cliente'));
     }
 

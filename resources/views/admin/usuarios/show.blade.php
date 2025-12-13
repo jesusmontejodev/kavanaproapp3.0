@@ -126,6 +126,98 @@
                     </div>
                 </div>
 
+                <!-- Nueva sección: Clientes del usuario -->
+                @php
+                    $clientesUsuario = App\Models\Cliente::where('id_user', $user->id)->get();
+                @endphp
+
+                @if($clientesUsuario->count() > 0)
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-lg font-semibold">👥 Clientes Asignados</h3>
+                        <a href="{{ route('cliente.show', $user->id) }}" class="text-sm text-indigo-600 hover:text-indigo-900">
+                            Ver todos ({{ $clientesUsuario->count() }}) →
+                        </a>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500">Cliente</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500">Inmueble</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500">Estado</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500">Entrega Estimada</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                @foreach($clientesUsuario->take(5) as $cliente)
+                                <tr class="hover:bg-gray-50">
+                                    <td class="px-4 py-3">
+                                        <div class="font-medium">{{ $cliente->nombre_completo }}</div>
+                                        <div class="text-sm text-gray-500">{{ $cliente->email }}</div>
+                                    </td>
+                                    <td class="px-4 py-3">
+                                        <div class="font-medium">{{ $cliente->inmueble_comprado ?? 'No especificado' }}</div>
+                                        @if($cliente->precio_compra)
+                                        <div class="text-sm text-gray-500">{{ $cliente->precio_compra_formateado }}</div>
+                                        @endif
+                                    </td>
+                                    <td class="px-4 py-3">
+                                        @php
+                                            $estadoClases = [
+                                                'contrato_firmado' => 'bg-blue-100 text-blue-800',
+                                                'proceso_escrituras' => 'bg-yellow-100 text-yellow-800',
+                                                'avance_obra' => 'bg-purple-100 text-purple-800',
+                                                'ultimos_detalles' => 'bg-indigo-100 text-indigo-800',
+                                                'entrega_finalizada' => 'bg-green-100 text-green-800'
+                                            ];
+                                            $clase = $estadoClases[$cliente->estado_entrega] ?? 'bg-gray-100 text-gray-800';
+                                        @endphp
+                                        <span class="px-2 py-1 text-xs rounded-full {{ $clase }}">
+                                            {{ $cliente->estado_entrega_texto }}
+                                        </span>
+                                        @if($cliente->progreso_entrega > 0)
+                                        <div class="w-full bg-gray-200 rounded-full h-1.5 mt-1">
+                                            <div class="bg-green-600 h-1.5 rounded-full"
+                                                 style="width: {{ $cliente->progreso_entrega }}%"></div>
+                                        </div>
+                                        @endif
+                                    </td>
+                                    <td class="px-4 py-3 text-sm">
+                                        @if($cliente->fecha_entrega_estimada)
+                                            @php
+                                                $fechaEntrega = \Carbon\Carbon::parse($cliente->fecha_entrega_estimada);
+                                                $hoy = \Carbon\Carbon::now();
+                                                $diasRestantes = $hoy->diffInDays($fechaEntrega, false);
+                                            @endphp
+                                            <div class="{{ $diasRestantes < 0 ? 'text-red-600' : ($diasRestantes < 30 ? 'text-yellow-600' : 'text-gray-600') }}">
+                                                {{ $fechaEntrega->format('d/m/Y') }}
+                                            </div>
+                                            @if($diasRestantes < 0)
+                                                <div class="text-xs text-red-500">Vencido</div>
+                                            @elseif($diasRestantes < 30)
+                                                <div class="text-xs text-yellow-600">{{ $diasRestantes }} días restantes</div>
+                                            @endif
+                                        @else
+                                            <span class="text-gray-400">No especificada</span>
+                                        @endif
+                                    </td>
+                                </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                        @if($clientesUsuario->count() > 5)
+                            <div class="mt-4 text-center">
+                                <a href="{{ route('cliente.show', $user->id) }}"
+                                   class="text-sm text-indigo-600 hover:text-indigo-900">
+                                    Ver {{ $clientesUsuario->count() - 5 }} clientes más →
+                                </a>
+                            </div>
+                        @endif
+                    </div>
+                </div>
+                @endif
+
                 <!-- Si hay leads, mostrar algunos -->
                 @if($user->leads->count() > 0)
                 <div class="bg-white rounded-lg shadow p-6">
@@ -302,13 +394,14 @@
                             <span class="text-indigo-600 mr-3">✏️</span>
                             <span>Editar información</span>
                         </a>
-                        @if($user->leads->count() > 0)
-                        <a href="{{ route('lead.index') }}?user={{ $user->id }}"
-                            class="flex items-center w-full p-3 border border-blue-200 rounded-lg hover:bg-blue-50">
-                            <span class="text-blue-600 mr-3">🎯</span>
-                            <span>Ver leads ({{ $user->leads->count() }})</span>
+                        @if($clientesUsuario->count() > 0)
+                        <a href="{{ route('cliente.show', $user->id) }}"
+                            class="flex items-center w-full p-3 border border-green-200 rounded-lg hover:bg-green-50">
+                            <span class="text-green-600 mr-3">👥</span>
+                            <span>Ver clientes ({{ $clientesUsuario->count() }})</span>
                         </a>
                         @endif
+
                     </div>
                 </div>
             </div>

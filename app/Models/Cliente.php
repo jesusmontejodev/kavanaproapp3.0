@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 class Cliente extends Model
 {
@@ -23,7 +24,7 @@ class Cliente extends Model
         'fecha_compra',
         'fecha_entrega_estimada',
         'fecha_entrega_real',
-        'ultimo_seguimiento',
+        'ultimo_seguimiento',  // Este es tipo TEXT en la BD
         'proximo_seguimiento',
         'observaciones_entrega',
         'notas'
@@ -35,9 +36,10 @@ class Cliente extends Model
         'fecha_entrega_estimada' => 'date',
         'fecha_entrega_real' => 'date',
         'proximo_seguimiento' => 'date',
-        'ultimo_seguimiento' => 'datetime', // <-- Agrega esta línea
+        // 'ultimo_seguimiento' => 'datetime', // <-- ELIMINAR o COMENTAR esta línea
     ];
 
+    // Relaciones
     public function user()
     {
         return $this->belongsTo(User::class, 'id_user');
@@ -46,6 +48,30 @@ class Cliente extends Model
     public function lead()
     {
         return $this->belongsTo(Lead::class, 'id_lead');
+    }
+
+    public function archivos()
+    {
+        return $this->hasMany(ClienteArchivo::class, 'id_cliente');
+    }
+
+    // Accessors para ultimo_seguimiento (si necesitas manejarlo como fecha)
+    public function getUltimoSeguimientoFechaAttribute()
+    {
+        // Intentar parsear el texto como fecha si contiene una fecha
+        if ($this->ultimo_seguimiento) {
+            // Buscar patrones de fecha en el texto
+            preg_match('/(\d{4}-\d{2}-\d{2})/', $this->ultimo_seguimiento, $matches);
+            if (!empty($matches[1])) {
+                return Carbon::parse($matches[1]);
+            }
+        }
+        return null;
+    }
+
+    public function getUltimoSeguimientoTextoAttribute()
+    {
+        return $this->ultimo_seguimiento ?: 'Sin seguimiento registrado';
     }
 
     // Métodos para el proceso de entrega
@@ -75,7 +101,6 @@ class Cliente extends Model
 
     public function getPrecioCompraFormateadoAttribute()
     {
-        // Verificar si precio_compra no es null
         if ($this->precio_compra === null) {
             return 'No especificado';
         }
@@ -90,7 +115,6 @@ class Cliente extends Model
             $this->proximo_seguimiento <= now()->addDays(7);
     }
 
-    // Método para verificar si está próximo a entregarse
     public function getEstaProximoAEntregarAttribute()
     {
         return $this->fecha_entrega_estimada &&

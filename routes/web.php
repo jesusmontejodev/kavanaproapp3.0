@@ -22,6 +22,7 @@ use App\Http\Controllers\PaginaPublicasController;
 use App\Http\Controllers\AdminUsuariosCrudController;
 use App\Http\Controllers\PaginaUsuarioController;
 use App\Http\Controllers\ClienteArchivoController;
+use App\Http\Controllers\ClienteUsuarioAdminController;
 
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
@@ -107,6 +108,11 @@ Route::middleware(['auth', 'role:coordinador'])->group(function () {
     // ESTA RUTA NO ES EL ADMIN SOLO SIRVE PARA LAS TAREAS
     Route::resource('adminusuarios', AdminUsuariosController::class);
     Route::resource('usuariotarea', UsuarioTareaController::class);
+
+    Route::get('clienteusuarioadmin/show/{id}', [ClienteUsuarioAdminController::class, 'show']);
+    Route::get('clienteusuarioadmin/archivo-usuario', [ClienteUsuarioAdminController::class, 'archivoUsuario']);
+
+
 });
 
 // RUTAS PARA ADMINISTRADORES
@@ -193,46 +199,50 @@ Route::middleware(['auth', 'role:administrador'])->group(function () {
 
 
 // PENDIENTE POR AGREGAR routes/web.php o routes/api.php
+// Rutas para archivos de clientes (dentro del grupo auth si es necesario)
 Route::middleware(['auth'])->group(function () {
-
-    // Rutas específicas por cliente
-    Route::prefix('clientes/{cliente}/archivos')->name('cliente.archivos.')->group(function () {
-
+    // Rutas para archivos de clientes
+    Route::prefix('cliente')->group(function () {
         // Subir archivo (POST)
-        Route::post('/', [ClienteArchivoController::class, 'store'])
-            ->name('store');
+        Route::post('/archivos/store', [ClienteArchivoController::class, 'store'])
+            ->name('cliente.archivos.store');
 
-        // Listar archivos del cliente (GET)
-        Route::get('/', [ClienteArchivoController::class, 'index'])
-            ->name('index');
-    });
+        // Obtener archivos de un cliente (GET)
+        Route::get('/{clienteId}/archivos', [ClienteArchivoController::class, 'index'])
+            ->name('cliente.archivos.index');
 
-    // Rutas por hash del archivo
-    Route::prefix('archivos')->name('cliente.archivos.')->group(function () {
+        // Descargar archivo
+        Route::get('/archivos/{archivo}/download', [ClienteArchivoController::class, 'download'])
+            ->name('cliente.archivos.download');
 
-        // Ver información del archivo (GET)
-        Route::get('/{hash}', [ClienteArchivoController::class, 'show'])
-            ->name('show');
+        // Ver archivo en navegador
+        Route::get('/archivos/{archivo}/ver', [ClienteArchivoController::class, 'ver'])
+            ->name('cliente.archivos.ver');
 
-        // Actualizar archivo (PUT/PATCH)
-        Route::put('/{hash}', [ClienteArchivoController::class, 'update'])
-            ->name('update');
-        Route::patch('/{hash}', [ClienteArchivoController::class, 'update']);
-
-        // Servir archivo para visualización (GET)
-        Route::get('/{hash}/servir', [ClienteArchivoController::class, 'servir'])
-            ->name('servir');
-
-        // Descargar archivo (GET)
-        Route::get('/{hash}/descargar', [ClienteArchivoController::class, 'descargar'])
-            ->name('descargar');
-
-        // Eliminar archivo (DELETE)
-        Route::delete('/{hash}', [ClienteArchivoController::class, 'destroy'])
-            ->name('destroy');
+        // Eliminar archivo
+        Route::delete('/archivos/{archivo}', [ClienteArchivoController::class, 'destroy'])
+            ->name('cliente.archivos.destroy');
     });
 });
 
+// Rutas para clientes con autenticación
+Route::middleware(['auth', 'role:administrador,coordinador'])->group(function () {
+    // Vista principal del cliente
+    Route::get('usuario/clientes/{id}', [ClienteUsuarioAdminController::class, 'show'])
+        ->name('cliente.show');
+
+    Route::get('usuario/cliente/{id}/archivos', [ClienteUsuarioAdminController::class, 'archivosclienteusuario'])
+        ->name('cliente.archivosclienteusuario');
+
+    // Rutas para archivos (agregar estas)
+    Route::post('usuario/cliente/{id}/archivos/subir', [ClienteUsuarioAdminController::class, 'subirNuevoArchiv']);
+
+    Route::get('usuario/cliente/archivos/descargar/{id}', [ClienteUsuarioAdminController::class, 'download']);
+
+    Route::get('usuario/cliente/archivos/ver/{id}', [ClienteUsuarioAdminController::class, 'ver']);
+
+    Route::delete('usuario/cliente/archivos/eliminar/{id}', [ClienteUsuarioAdminController::class, 'deleteArchivo']);
+});
 
 
 

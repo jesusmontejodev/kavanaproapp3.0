@@ -46,7 +46,6 @@ class AdminUsuariosCrudController extends Controller
     public function show($id)
     {
         $user = User::with(['roles', 'leads', 'usuarioTareas.tarea'])->findOrFail($id);
-
         return view('admin.usuarios.show', compact('user'));
     }
 
@@ -226,4 +225,9 @@ class AdminUsuariosCrudController extends Controller
 
         return back()->with('success', $message);
     }
+
+    public function usuarioClientes($id){
+
+    }
+
 }
