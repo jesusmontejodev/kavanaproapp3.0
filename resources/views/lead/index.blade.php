@@ -40,13 +40,6 @@
                                         Ver detalles
                                     </a>
 
-                                    <!-- Botón para agregar lead a este embudo específico -->
-                                    {{-- <a
-                                        href="{{ route('leads.create', ['embudo_id' => $embudo->id]) }}"
-                                        class="text-sm text-blue-600 hover:text-blue-800 font-medium"
-                                    >
-                                        + Agregar lead
-                                    </a> --}}
                                 </div>
                             </div>
                         </div>

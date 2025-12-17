@@ -36,9 +36,8 @@
                 </div>
 
                 <!-- Formulario -->
-                    <form action="{{ route('adminusuariosmaestro.cambiarPasswordfunction', $user->id) }}" method="POST" id="passwordForm">
+                <form action="{{ route('adminusuariosmaestro.cambiarPassword', $user->id) }}" method="POST" id="passwordForm">
                     @csrf
-
                     @if(session('error'))
                         <div class="mb-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg">
                             {{ session('error') }}
