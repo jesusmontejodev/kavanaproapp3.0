@@ -201,7 +201,7 @@
     </div>
 
     {{-- Formulario crear lead --}}
-    <div class="mt-8 bg-white p-6 rounded-lg shadow">
+    {{-- <div class="mt-8 bg-white p-6 rounded-lg shadow">
         <h2 class="text-xl font-semibold mb-4">Crear Nuevo Lead</h2>
         <form id="lead-form">
 
@@ -240,7 +240,7 @@
                 </button>
             </div>
         </form>
-    </div>
+    </div> --}}
 
     <script>
         // Manejar envío del formulario (actualizado para agregar visualmente)
