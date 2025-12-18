@@ -36,8 +36,9 @@
 
                     // Determinar qué mostrar
                     $mostrarHerramientasBasicas = $tieneRolUsuario || $tieneRolCoordinador || $tieneRolAdministrador;
-                    $mostrarCoordinacion = $tieneRolCoordinador;
+                    $mostrarCoordinacion = $tieneRolCoordinador || $tieneRolAdministrador;
                     $mostrarAdministracion = $tieneRolAdministrador;
+                    $mostrarAnalisis = $tieneRolAdministrador; // Solo administradores
                 @endphp
 
                 <!-- HERRAMIENTAS BÁSICAS PARA TODOS -->
@@ -51,7 +52,6 @@
                     </x-nav-link>
 
                     <!-- MIS LEADS -->
-
                     <x-nav-link :href="route('lead.index')" :active="request()->routeIs('lead.index')" class="justify-start">
                         <svg class="w-5 h-5 me-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
@@ -70,13 +70,44 @@
                     <!-- MIS PAGINAS -->
                     <x-nav-link :href="route('paginasusuario.index')" :active="request()->routeIs('paginasusuario.index')" class="justify-start">
                         <svg class="w-5 h-5 me-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
                         </svg>
                         {{ __('Mis paginas') }}
                     </x-nav-link>
                 @endif
 
-                <!-- SECCIÓN COORDINACIÓN (para coordinadores) -->
+                <!-- SECCIÓN ANÁLISIS & REPORTES (solo para administradores) -->
+                @if($mostrarAnalisis)
+                    <div class="px-3 pt-6 pb-2">
+                        <div class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Análisis & Reportes</div>
+                    </div>
+
+                    <!-- RANKINGS DE LEADS -->
+                    <x-nav-link :href="route('analista.lead-rankings')" :active="request()->routeIs('analista.lead-rankings')" class="justify-start">
+                        <svg class="w-5 h-5 me-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                        {{ __('Rankings de Leads') }}
+                    </x-nav-link>
+
+                    <!-- RANKINGS DE CLIENTES -->
+                    <x-nav-link :href="route('analista.cliente-rankings')" :active="request()->routeIs('analista.cliente-rankings')" class="justify-start">
+                        <svg class="w-5 h-5 me-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        {{ __('Rankings de Clientes') }}
+                    </x-nav-link>
+
+                    <!-- RANKING GLOBAL -->
+                    <x-nav-link :href="route('analista.global-rankings')" :active="request()->routeIs('analista.global-rankings')" class="justify-start">
+                        <svg class="w-5 h-5 me-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        {{ __('Ranking Global') }}
+                    </x-nav-link>
+                @endif
+
+                <!-- SECCIÓN COORDINACIÓN (para coordinadores y administradores) -->
                 @if($mostrarCoordinacion)
                     <div class="px-3 pt-6 pb-2">
                         <div class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Coordinación</div>
@@ -97,10 +128,9 @@
                         </svg>
                         {{ __('Tareas de usuarios') }}
                     </x-nav-link>
-
                 @endif
 
-                <!-- SECCIÓN ADMINISTRACIÓN (para administradores) -->
+                <!-- SECCIÓN ADMINISTRACIÓN (solo para administradores) -->
                 @if($mostrarAdministracion)
                     <div class="px-3 pt-6 pb-2">
                         <div class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Administración</div>
@@ -125,7 +155,7 @@
                     <!-- EMBUDOS DE VENTA (Admin) -->
                     <x-nav-link :href="route('adminembudos.index')" :active="request()->routeIs('adminembudos.index')" class="justify-start">
                         <svg class="w-5 h-5 me-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
                         </svg>
                         {{ __('Embudos de Venta') }}
                     </x-nav-link>
@@ -138,7 +168,7 @@
                         {{ __('Grupos de Tareas') }}
                     </x-nav-link>
 
-                    <!-- GRUPOS DE TAREAS -->
+                    <!-- ADMIN USUARIOS MAESTRO -->
                     <x-nav-link :href="route('adminusuariosmaestro.index')" :active="request()->routeIs('adminusuariosmaestro.index')" class="justify-start">
                         <svg class="w-5 h-5 me-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>

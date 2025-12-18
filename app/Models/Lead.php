@@ -52,4 +52,9 @@ class Lead extends Model
     {
         return $this->hasMany(SolicitudCliente::class, 'id_lead');
     }
+    // En App\Models\Lead.php
+    public function clientes()
+    {
+        return $this->hasMany(Cliente::class, 'id_lead');
+    }
 }

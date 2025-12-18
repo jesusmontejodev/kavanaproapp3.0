@@ -25,6 +25,12 @@ Route::get('/leadsusuarios/estadisticas/{userId}', [PublicLeadController::class,
 Route::get('/open/{proyecto}/contact-info/{usuario?}', [PaginaPublicasController::class, 'getContactInfo'])
     ->name('public.projects.contactInfo');
 
+
+
+
+
+
+
 // ======================== RUTAS PROTEGIDAS (CON AUTENTICACIÓN) ========================
 Route::middleware('auth:sanctum')->group(function () {
     // Rutas de Leads
@@ -43,19 +49,8 @@ Route::middleware('auth:sanctum')->group(function () {
     // ✅ Actualizar orden interno
     Route::post('/leads/actualizar-orden-interno', [LeadController::class, 'actualizarOrdenInterno']);
 
-    // ======================== RUTAS DE EMBUDOS (SI LAS TIENES) ========================
-    // Si tienes un EmbudoController, agrega sus rutas aquí:
-    /*
-    Route::apiResource('embudos', EmbudoController::class);
-    Route::get('/embudos/{id}/etapas', [EmbudoController::class, 'getEtapas']);
-    */
+
+    //RUTAS PARA USUARIOS
+    //Leads, fecha_creado, id_user, data_user
 });
 
-// ======================== RUTAS DE PÁGINAS PÚBLICAS (WEB) ========================
-// Estas rutas deberían estar en routes/web.php, pero si las necesitas en api.php:
-/*
-Route::get('open', [PaginaPublicasController::class, 'index']);
-Route::get('open/{id}', [PaginaPublicasController::class, 'show']);
-Route::get('open/{proyecto}/usuario/{usuario}', [PaginaPublicasController::class, 'showWithUser']);
-Route::get('usuario/{id}', [PaginaPublicasController::class, 'showUserProfile']);
-*/

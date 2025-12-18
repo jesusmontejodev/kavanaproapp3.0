@@ -23,6 +23,8 @@ use App\Http\Controllers\AdminUsuariosCrudController;
 use App\Http\Controllers\PaginaUsuarioController;
 use App\Http\Controllers\ClienteArchivoController;
 use App\Http\Controllers\ClienteUsuarioAdminController;
+use App\Http\Controllers\AnalistaController;
+
 
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
@@ -192,6 +194,17 @@ Route::middleware(['auth', 'role:administrador'])->group(function () {
         // Eliminar usuario permanentemente (si lo necesitas)
         // Route::delete('/{id}', [AdminUsuariosCrudController::class, 'destroy'])->name('destroy');
     });
+
+
+    Route::get('/analytics/lead-rankings', [AnalistaController::class, 'UserLeadGraficas'])
+    ->name('analista.lead-rankings');
+
+    Route::get('/analytics/cliente-rankings', [AnalistaController::class, 'UserClienteGraficas'])
+    ->name('analista.cliente-rankings');
+
+    Route::get('/analista/global-rankings', [AnalistaController::class, 'UserGlobalGraficas'])
+    ->name('analista.global-rankings');
+
 });
 
 
