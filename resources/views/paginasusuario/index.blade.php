@@ -11,7 +11,8 @@
                 @if($proyectos->isEmpty())
                     <div class="text-center py-8">
                         <p class="text-gray-500">No tienes páginas/proyectos creados.</p>
-                        <a href="{{ route('proyectos.create') }}" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                        <a href="{{ route('proyectos.create') }}"
+                            class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
                             Crear nuevo proyecto
                         </a>
                     </div>
@@ -23,7 +24,19 @@
                                 $projectUrl = url('/open/' . $proyecto->id . '/usuario/' . $id_usuario);
                             @endphp
 
+
                             <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+                                @if(isset($proyecto->url_imagen) && $proyecto->url_imagen)
+                                    <img src="{{ asset('/' . $proyecto->url_imagen) }}"
+                                        alt="{{ $proyecto->nombre ?? 'Proyecto' }}"
+                                        class="w-full h-48 object-cover rounded-md mb-4">
+                                @else
+                                    <!-- Placeholder si no hay imagen -->
+                                    <div class="w-full h-48 bg-gray-200 rounded-md mb-4 flex items-center justify-center">
+                                        <span class="text-gray-500">Sin imagen</span>
+                                    </div>
+                                @endif
+
                                 <h3 class="font-semibold text-lg text-gray-800 mb-2">
                                     {{ $proyecto->nombre ?? 'Proyecto #' . $proyecto->id }}
                                 </h3>
@@ -35,52 +48,60 @@
                                 @endif
 
                                 <!-- URL del proyecto (para copiar) -->
-                                <div class="mb-4">
-                                    <label class="block text-sm font-medium text-gray-700 mb-1">Enlace del proyecto:</label>
-                                    <div class="flex items-center">
-                                        <input type="text"
-                                               id="url-{{ $proyecto->id }}"
-                                               value="{{ $projectUrl }}"
-                                               readonly
-                                               class="flex-grow px-3 py-2 border border-gray-300 rounded-l text-sm bg-gray-50">
-                                        <button onclick="copyToClipboard('url-{{ $proyecto->id }}')"
+                                <!-- Necesitas definir $projectUrl en tu controlador -->
+                                @if(isset($projectUrl))
+                                    <div class="mb-4">
+                                        <label class="block text-sm font-medium text-gray-700 mb-1">Enlace del proyecto:</label>
+                                        <div class="flex items-center">
+                                            <input type="text" id="url-{{ $proyecto->id }}" value="{{ $projectUrl }}" readonly
+                                                class="flex-grow px-3 py-2 border border-gray-300 rounded-l text-sm bg-gray-50">
+                                            <button onclick="copyToClipboard('url-{{ $proyecto->id }}')"
                                                 class="bg-gray-200 hover:bg-gray-300 px-4 py-2 border border-gray-300 border-l-0 rounded-r transition-colors"
                                                 title="Copiar enlace">
-                                            📋
-                                        </button>
+                                                📋
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
+                                @endif
 
                                 <!-- Botones de acción -->
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <!-- Botón Abrir en nueva pestaña -->
-                                    <a href="{{ $projectUrl }}"
-                                       target="_blank"
-                                       class="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                                        </svg>
-                                        Abrir
-                                    </a>
+                                @if(isset($projectUrl))
+                                    <div class="flex flex-wrap gap-2 mb-4">
+                                        <!-- Botón Abrir en nueva pestaña -->
+                                        <a href="{{ $projectUrl }}" target="_blank"
+                                            class="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm transition-colors">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                                </path>
+                                            </svg>
+                                            Abrir
+                                        </a>
 
-                                    <!-- Botón Copiar URL -->
-                                    <button onclick="copyToClipboard('url-{{ $proyecto->id }}')"
+                                        <!-- Botón Copiar URL -->
+                                        <button onclick="copyToClipboard('url-{{ $proyecto->id }}')"
                                             class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded text-sm transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
-                                        </svg>
-                                        Copiar URL
-                                    </button>
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z">
+                                                </path>
+                                            </svg>
+                                            Copiar URL
+                                        </button>
 
-                                    <!-- Botón para mostrar QR -->
-                                    {{-- <button onclick="generateAndShowQR('{{ $projectUrl }}', '{{ $proyecto->nombre ?? 'Proyecto #' . $proyecto->id }}')"
+                                        <!-- Botón para mostrar QR -->
+                                        {{-- <button
+                                            onclick="generateAndShowQR('{{ $projectUrl }}', '{{ $proyecto->nombre ?? 'Proyecto #' . $proyecto->id }}')"
                                             class="inline-flex items-center gap-2 bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded text-sm transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"></path>
-                                        </svg>
-                                        Ver QR
-                                    </button> --}}
-                                </div>
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z">
+                                                </path>
+                                            </svg>
+                                            Ver QR
+                                        </button> --}}
+                                    </div>
+                                @endif
 
                                 <!-- Información adicional -->
                                 <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
@@ -108,7 +129,8 @@
                 <h3 class="text-lg font-semibold text-gray-800" id="qrTitle">Código QR</h3>
                 <button onclick="closeQRModal()" class="text-gray-400 hover:text-gray-600">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
                     </svg>
                 </button>
             </div>
@@ -119,23 +141,21 @@
                     <div id="qrImageContainer"></div>
                 </div>
                 <div class="text-center mb-4">
-                    <input type="text"
-                           id="qrUrlInput"
-                           readonly
-                           class="w-full px-3 py-2 border border-gray-300 rounded text-sm bg-gray-50 text-center">
+                    <input type="text" id="qrUrlInput" readonly
+                        class="w-full px-3 py-2 border border-gray-300 rounded text-sm bg-gray-50 text-center">
                 </div>
                 <p class="text-sm text-gray-600 text-center mb-4">Escanea este código para acceder al proyecto</p>
                 <div class="flex gap-2 justify-center">
                     <button onclick="downloadQR()"
-                            class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm transition-colors">
+                        class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm transition-colors">
                         Descargar QR
                     </button>
                     <button onclick="copyQRUrl()"
-                            class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded text-sm transition-colors">
+                        class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded text-sm transition-colors">
                         Copiar URL
                     </button>
                     <button onclick="closeQRModal()"
-                            class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded text-sm transition-colors">
+                        class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded text-sm transition-colors">
                         Cerrar
                     </button>
                 </div>
@@ -172,7 +192,7 @@
                     dark: '#000000',
                     light: '#FFFFFF'
                 }
-            }, function(error) {
+            }, function (error) {
                 if (error) {
                     console.error('Error generando QR:', error);
                     qrContainer.innerHTML = '<p class="text-red-500">Error generando QR</p>';

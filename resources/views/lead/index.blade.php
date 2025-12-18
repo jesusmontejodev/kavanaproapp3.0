@@ -21,11 +21,11 @@
                                         @endif
                                         <p class="text-xs text-gray-400 mt-1">ID: {{ $embudo->id }}</p>
                                     </div>
-                                    @if($embudo->leads_count > 0)
+                                    {{-- @if($embudo->leads_count > 0)
                                         <span class="flex-shrink-0 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 ml-2">
                                             {{ $embudo->leads_count }} leads
                                         </span>
-                                    @endif
+                                    @endif --}}
                                 </div>
 
                                 <div class="flex items-center justify-between pt-4 border-t border-gray-100">
@@ -141,7 +141,7 @@
                                                     </span>
                                                 @else
                                                     <span class="px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text-gray-800">
-                                                        Sin proyecto
+                                                        Web externa
                                                     </span>
                                                 @endif
                                             </div>

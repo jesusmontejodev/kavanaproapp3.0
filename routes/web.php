@@ -115,6 +115,15 @@ Route::middleware(['auth', 'role:coordinador'])->group(function () {
     Route::get('clienteusuarioadmin/archivo-usuario', [ClienteUsuarioAdminController::class, 'archivoUsuario']);
 
 
+    Route::get('/analytics/lead-rankings', [AnalistaController::class, 'UserLeadGraficas'])
+    ->name('analista.lead-rankings');
+
+    Route::get('/analytics/cliente-rankings', [AnalistaController::class, 'UserClienteGraficas'])
+    ->name('analista.cliente-rankings');
+
+    Route::get('/analista/global-rankings', [AnalistaController::class, 'UserGlobalGraficas'])
+    ->name('analista.global-rankings');
+
 });
 
 // RUTAS PARA ADMINISTRADORES
@@ -196,14 +205,7 @@ Route::middleware(['auth', 'role:administrador'])->group(function () {
     });
 
 
-    Route::get('/analytics/lead-rankings', [AnalistaController::class, 'UserLeadGraficas'])
-    ->name('analista.lead-rankings');
 
-    Route::get('/analytics/cliente-rankings', [AnalistaController::class, 'UserClienteGraficas'])
-    ->name('analista.cliente-rankings');
-
-    Route::get('/analista/global-rankings', [AnalistaController::class, 'UserGlobalGraficas'])
-    ->name('analista.global-rankings');
 
 });
 

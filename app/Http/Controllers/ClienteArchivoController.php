@@ -42,18 +42,7 @@ class ClienteArchivoController extends Controller
             'url_archivo' => $ruta,
         ]);
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Archivo subido exitosamente',
-            'archivo' => [
-                'id' => $clienteArchivo->id,
-                'nombre' => $clienteArchivo->nombre_archivo,
-                'url' => $ruta,
-                'fecha' => $clienteArchivo->created_at->format('d/m/Y H:i'),
-                'icono' => $clienteArchivo->icono,
-                'color' => $clienteArchivo->color,
-            ]
-        ]);
+        return back()->with('success', 'Archivo subido exitosamente');
     }
 
     /**

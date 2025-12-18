@@ -170,13 +170,11 @@
                                         </div>
                                         <div class="flex flex-wrap gap-2">
                                             @foreach($proyecto->linkProyectos->take(3) as $link)
-                                                <a href="{{ $link->url }}"
+                                                <a href="{{ $link->url_archivo }}"
                                                     target="_blank"
-                                                    class="inline-flex items-center gap-1 px-2 py-1 text-xs border border-[#e3e3e0] dark:border-[#3E3E3A] rounded hover:border-[#f53003] dark:hover:border-[#FF4433] transition-colors">
-                                                    <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                                        <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
-                                                    </svg>
-                                                    <span class="truncate max-w-[80px]">{{ $link->nombre ?? 'Enlace' }}</span>
+                                                    class="gap-1 px-2 py-1 text-xs border border-[#e3e3e0] dark:border-[#3E3E3A] rounded hover:border-[#f53003] dark:hover:border-[#FF4433] transition-colors">
+
+                                                    <span class="truncate max-w-[80px]" style="color:aliceblue">{{ $link->descripcion }}</span>
                                                 </a>
                                             @endforeach
                                         </div>

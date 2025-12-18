@@ -3,7 +3,7 @@
     <div class="flex-shrink-0 p-4 border-b border-gray-700">
         <a href="{{ route('home') }}" class="flex items-center">
             <x-application-logo class="block h-8 w-auto fill-current text-white" />
-            <span class="ms-3 text-lg font-semibold text-white">{{ config('app.name') }}</span>
+            <span class="ms-3 text-lg font-semibold text-white">{{ config('app.name') }} App</span>
         </a>
     </div>
 
